@@ -4,7 +4,7 @@
     "description": "ligue 1",
     "main": "index.js",
     "scripts": {
-        "start": "webpack-dev-server --mode development --open --color",
+        "start": "webpack-dev-server --mode development --open 'firefox' --color",
         "dev": "webpack --mode development",
         "prod": "webpack --mode production",
         "test": "echo \"Error: no test specified\" && exit 1"
