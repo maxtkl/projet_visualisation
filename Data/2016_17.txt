@@ -257,8 +257,8 @@ Montpellier   3-0 Paris-SG
 Angers        2-2 Lorient       
 Monaco        5-0 Bastia        
 Guingamp      2-0 Nantes        
-Metz          abd Lyon          [abandoned at 1-0 in 31' after Lyon 'keeper was
-Bordeaux      0-1 Lille          hit by a firecracker]
+Metz          abd Lyon          [abandoned at 1-0 in 31' after Lyon 'keeper was hit by a firecracker]
+Bordeaux      0-1 Lille
 [Dec 4]
 Rennes        2-0 Saint-Etienne 
 Marseille     3-0 Nancy         
@@ -517,8 +517,8 @@ Metz          2-2 Caen
 Montpellier   2-0 Lorient       
 Monaco        2-1 Dijon         
 [Apr 16]
-Bastia        awd Lyon          [abandoned at 0-0 at half-time due to crowd trouble;
-Nantes        0-1 Bordeaux       awarded as a 0-0 win to Lyon]
+Bastia        awd Lyon          [abandoned at 0-0 at half-time due to crowd trouble; awarded as a 0-0 win to Lyon]
+Nantes        0-1 Bordeaux
 Marseille     4-0 Saint-Etienne 
 
 Round 34
