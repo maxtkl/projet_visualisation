@@ -1,0 +1,30 @@
+{
+  "name": "projet_visualisation",
+  "version": "1.0.0",
+  "description": "ligue 1",
+  "main": "bundle.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maxtkl/projet_visualisation.git"
+  },
+  "keywords": [
+    "ligue1",
+    "foot"
+  ],
+  "author": "Maxime Trinkl Alice Lejeune",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxtkl/projet_visualisation/issues"
+  },
+  "homepage": "https://github.com/maxtkl/projet_visualisation#readme",
+  "dev-dependencies": {
+    "underscore": "^1.9.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
