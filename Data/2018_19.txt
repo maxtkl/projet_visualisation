@@ -1,25 +1,3 @@
- 1.Paris-Saint-Germain FC     7   7  0  0  24- 6  21  [C]
- 2.Olympique Lyonnais         7   4  1  2  13- 6  13
- 3.Olympique de Marseille     7   4  1  2  19-13  13
- 4.Lille OSC                  7   4  1  2  11- 6  13
- 5.Montpellier-Hérault SC     7   3  3  1   8- 6  12
- 6.AS Saint-Etienne           7   3  3  1   8- 9  12
- 7.Toulouse FC                7   3  2  2   8-10  11
- 8.Angers SCO                 7   3  1  3   9- 9  10
- 9.Dijon FCO                  7   3  1  3   9- 9  10
-10.FC Girondins Bordeaux      7   3  1  3  10-11  10
-11.OGC Nice                   7   3  1  3   6- 9  10
-12.Nîmes Olympique            7   2  3  2  13-13   9  [P]
-13.RC Strasbourg Alsace       7   2  2  3  11-11   8
-14.Stade de Reims             7   2  2  3   4- 9   8  [P]
-15.Amiens ACF                 7   2  1  4  10-12   7
-16.SM Caen                    7   1  4  2   9-11   7
-17.Stade Rennais FC           7   2  1  4   9-12   7
- - - - - - - - - - - - - - - - - - - - - - - - - - -
-18.AS Monaco                  7   1  3  3   8- 9   6
-----------------------------------------------------
-19.FC Nantes                  7   1  2  4   7-12   5
-20.En Avant Guingamp          7   0  1  6   4-17   1
 
 Round 1
 [Aug 10]
@@ -124,29 +102,3 @@ Nîmes         0-0 Guingamp
 Marseille     3-2 Strasbourg    
 Caen          2-2 Montpellier   
 Paris-SG      4-1 Reims         
-
-Table:
-
- 1.Paris-Saint-Germain FC     7   7  0  0  24- 6  21  [C]
- 2.Olympique Lyonnais         7   4  1  2  13- 6  13
- 3.Olympique de Marseille     7   4  1  2  19-13  13
- 4.Lille OSC                  7   4  1  2  11- 6  13
- 5.Montpellier-Hérault SC     7   3  3  1   8- 6  12
- 6.AS Saint-Etienne           7   3  3  1   8- 9  12
- 7.Toulouse FC                7   3  2  2   8-10  11
- 8.Angers SCO                 7   3  1  3   9- 9  10
- 9.Dijon FCO                  7   3  1  3   9- 9  10
-10.FC Girondins Bordeaux      7   3  1  3  10-11  10
-11.OGC Nice                   7   3  1  3   6- 9  10
-12.Nîmes Olympique            7   2  3  2  13-13   9  [P]
-13.RC Strasbourg Alsace       7   2  2  3  11-11   8
-14.Stade de Reims             7   2  2  3   4- 9   8  [P]
-15.Amiens ACF                 7   2  1  4  10-12   7
-16.SM Caen                    7   1  4  2   9-11   7
-17.Stade Rennais FC           7   2  1  4   9-12   7
- - - - - - - - - - - - - - - - - - - - - - - - - - -
-18.AS Monaco                  7   1  3  3   8- 9   6
-----------------------------------------------------
-19.FC Nantes                  7   1  2  4   7-12   5
-20.En Avant Guingamp          7   0  1  6   4-17   1
-
