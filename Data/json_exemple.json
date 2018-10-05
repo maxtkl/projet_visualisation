@@ -1,0 +1,16 @@
+{
+    "annee": [
+        {
+            "journee_1": [
+                {"date": [
+                    {
+                        "domicile": "Monaco",
+                        "exterieur": "PSG",
+                        "but_dom": "1",
+                        "but_ext": "3"
+                    }
+                ]}
+            ]
+        }
+    ]
+}
