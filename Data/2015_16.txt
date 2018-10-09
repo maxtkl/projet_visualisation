@@ -1,286 +1,1665 @@
-Round 1
-[Aug 7]
-Lille         0-1 Paris-SG      
-[Aug 8]
-Troyes        0-0 G. Ajaccio    
-Nantes        1-0 Guingamp      
-Montpellier   0-2 Angers        
-Nice          1-2 Monaco        
-Marseille     0-1 Caen          
-Bastia        2-1 Rennes        
-[Aug 9]
-Bordeaux      1-2 Reims         
-Toulouse      2-1 Saint-Etienne 
-Lyon          0-0 Lorient       
-
-Round 2
-[Aug 14]
-Monaco        0-0 Lille         
-[Aug 15]
-Saint-Etienne 1-1 Bordeaux      
-Angers        0-0 Nantes        
-Caen          1-0 Toulouse      
-Guingamp      0-1 Lyon          
-Troyes        3-3 Nice          
-Rennes        1-0 Montpellier   
-[Aug 16]
-Reims         1-0 Marseille     
-Lorient       1-1 Bastia        
-Paris-SG      2-0 G. Ajaccio    
-
-Round 3
-[Aug 21]
-Montpellier   0-1 Paris-SG      
-[Aug 22]
-Lyon          1-2 Rennes        
-Nantes        1-0 Reims         
-G. Ajaccio    0-2 Angers        
-Nice          2-1 Caen          
-Bastia        3-0 Guingamp      
-Toulouse      1-1 Monaco        
-[Aug 23]
-Lille         0-0 Bordeaux      
-Lorient       0-1 Saint-Etienne 
-Marseille     6-0 Troyes        
-
-Round 4
-[Aug 28]
-Guingamp      2-0 Marseille     
-[Aug 29]
-Caen          0-4 Lyon          
-Angers        1-1 Nice          
-Troyes        0-0 Montpellier   
-Lille         1-0 G. Ajaccio    
-Rennes        3-1 Toulouse      
-Reims         4-1 Lorient       
-[Aug 30]
-Saint-Etienne 2-1 Bastia        
-Bordeaux      2-0 Nantes        
-Monaco        0-3 Paris-SG      
-
-Round 5
-[Sep 11]
-Paris-SG      2-2 Bordeaux      
-[Sep 12]
-Lyon          0-0 Lille         
-Troyes        1-3 Caen          
-Lorient       3-1 Angers        
-Montpellier   1-2 Saint-Etienne 
-Nice          0-1 Guingamp      
-Toulouse      2-2 Reims         
-[Sep 13]
-G. Ajaccio    0-1 Monaco        
-Nantes        0-2 Rennes        
-Marseille     4-1 Bastia        
-
-Round 6
-[Sep 18]
-Rennes        1-1 Lille         
-[Sep 19]
-Reims         1-1 Paris-SG      
-Angers        1-0 Troyes        
-Caen          2-1 Montpellier   
-Guingamp      2-1 G. Ajaccio    
-Bastia        1-3 Nice          
-[Sep 20]
-Bordeaux      1-1 Toulouse      
-Monaco        2-3 Lorient       
-Saint-Etienne 2-0 Nantes        
-Marseille     1-1 Lyon          
-
-Round 7
-[Sep 22]
-Angers        0-0 Reims         
-Paris-SG      3-0 Guingamp      
-[Sep 23]
-Troyes        0-1 Saint-Etienne 
-Lorient       2-0 Caen          
-G. Ajaccio    1-1 Rennes        
-Nice          6-1 Bordeaux      
-Lyon          2-0 Bastia        
-Toulouse      1-1 Marseille     
-[Sep 24]
-Montpellier   2-3 Monaco        
-[Sep 29]
-Lille         0-1 Nantes        
-
-Round 8
-[Sep 25]
-Reims         1-0 Lille         
-[Sep 26]
-Nantes        1-4 Paris-SG      
-Caen          2-0 G. Ajaccio    
-Bordeaux      3-1 Lyon          
-Rennes        1-1 Troyes        
-Bastia        3-0 Toulouse      
-[Sep 27]
-Marseille     1-2 Angers        
-Guingamp      3-3 Monaco        
-Montpellier   2-1 Lorient       
-Saint-Etienne 1-4 Nice          
-
-Round 9
-[Oct 2]
-Lille         2-0 Montpellier   
-[Oct 3]
-Lyon          1-0 Reims         
-Angers        1-0 Bastia        
-Troyes        0-1 Guingamp      
-G. Ajaccio    2-2 Toulouse      
-[Oct 4]
-Monaco        1-1 Rennes        
-Caen          1-0 Saint-Etienne 
-Lorient       3-2 Bordeaux      
-Paris-SG      2-1 Marseille     
-[Nov 4]
-Nice          1-2 Nantes        
-
-Round 10
-[Oct 16]
-Monaco        1-1 Lyon          
-[Oct 17]
-Bastia        0-2 Paris-SG      
-Guingamp      1-1 Lille         
-Nantes        3-0 Troyes        
-Saint-Etienne 2-0 G. Ajaccio    
-Reims         0-1 Caen          
-Toulouse      1-2 Angers        
-[Oct 18]
-Marseille     1-1 Lorient       
-Bordeaux      0-0 Montpellier   
-Rennes        1-4 Nice          
-
-Round 11
-[Oct 23]
-Caen          0-2 Nantes        
-Lyon          3-0 Toulouse      
-[Oct 24]
-Lorient       1-1 Rennes        
-Angers        0-0 Guingamp      
-G. Ajaccio    3-1 Nice          
-Montpellier   2-0 Bastia        
-[Oct 25]
-Reims         0-1 Monaco        
-Bordeaux      1-0 Troyes        
-Lille         1-2 Marseille     
-Paris-SG      4-1 Saint-Etienne 
-
-Round 12
-[Oct 30]
-Rennes        0-1 Paris-SG      
-[Oct 31]
-Saint-Etienne 3-0 Reims         
-Guingamp      2-2 Lorient       
-Troyes        0-1 Lyon          
-G. Ajaccio    2-0 Bordeaux      
-Bastia        1-0 Caen          
-Toulouse      1-1 Montpellier   
-[Nov 1]
-Nice          0-0 Lille         
-Monaco        1-0 Angers        
-Nantes        0-1 Marseille     
-
-Round 13
-[Nov 6]
-Angers        0-2 Rennes        
-[Nov 7]
-Paris-SG      5-0 Toulouse      
-Caen          2-1 Guingamp      
-Lorient       4-1 Troyes        
-Lille         1-1 Bastia        
-Montpellier   2-1 Nantes        
-Reims         1-2 G. Ajaccio    
-[Nov 8]
-Marseille     0-1 Nice          
-Bordeaux      3-1 Monaco        
-Lyon          3-0 Saint-Etienne 
-
-Round 14
-[Nov 20]
-Nice          3-0 Lyon          
-[Nov 21]
-Lorient       1-2 Paris-SG      
-Monaco        1-0 Nantes        
-Guingamp      2-0 Toulouse      
-Troyes        1-1 Lille         
-Montpellier   3-1 Reims         
-[Nov 22]
-Caen          0-0 Angers        
-Bastia        1-2 G. Ajaccio    
-Rennes        2-2 Bordeaux      
-Saint-Etienne 0-2 Marseille     
-
-Round 15
-[Nov 27]
-Lyon          2-4 Montpellier   
-[Nov 28]
-Paris-SG      4-1 Troyes        
-Angers        2-0 Lille         
-Nantes        0-0 Bastia        
-G. Ajaccio    1-1 Lorient       
-Reims         2-2 Rennes        
-Toulouse      2-0 Nice          
-[Nov 29]
-Saint-Etienne 3-0 Guingamp      
-Bordeaux      1-4 Caen          
-Marseille     3-3 Monaco        
-
-Round 16
-[Dec 1]
-Angers        0-0 Paris-SG      
-Lorient       0-0 Nice          
-Nantes        0-0 Lyon          
-[Dec 2]
-Monaco        1-1 Caen          
-Guingamp      1-2 Reims         
-Troyes        0-3 Toulouse      
-Montpellier   0-2 G. Ajaccio    
-Bastia        1-0 Bordeaux      
-Lille         1-0 Saint-Etienne 
-[Dec 3]
-Rennes        0-1 Marseille     
-
-Round 17
-[Dec 4]
-Nice          0-3 Paris-SG      
-[Dec 5]
-Lyon          0-2 Angers        
-Caen          1-2 Lille         
-G. Ajaccio    1-1 Nantes        
-Bastia        1-2 Monaco        
-Reims         1-1 Troyes        
-Toulouse      2-3 Lorient       
-[Dec 6]
-Marseille     2-2 Montpellier   
-Bordeaux      1-0 Guingamp      
-Saint-Etienne 1-1 Rennes        
-
-Round 18
-[Dec 11]
-Rennes        1-1 Caen          
-[Dec 12]
-Reims         1-1 Nice          
-Troyes        1-1 Bastia        
-Nantes        1-1 Toulouse      
-Lille         3-0 Lorient       
-Montpellier   2-1 Guingamp      
-[Dec 13]
-Monaco        1-0 Saint-Etienne 
-Angers        1-1 Bordeaux      
-Marseille     1-1 G. Ajaccio    
-Paris-SG      5-1 Lyon          
-
-Round 19
-[Dec 18]
-Nice          1-0 Montpellier   
-[Dec 19]
-Caen          0-3 Paris-SG      
-Guingamp      0-2 Rennes        
-Troyes        0-0 Monaco        
-Lorient       0-0 Nantes        
-Bastia        2-0 Reims         
-Toulouse      1-1 Lille         
-[Dec 20]
-Saint-Etienne 1-0 Angers        
-G. Ajaccio    2-1 Lyon          
-Bordeaux      1-1 Marseille     
+{
+  "journee_1": [
+    {
+      "date": "7 Aug",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Lille",
+          "exterieur": "Paris-SG",
+          "victoire": "(0-1)"
+        }
+      ]
+    },
+    {
+      "date": "8 Aug",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Troyes",
+          "exterieur": "G. Ajaccio",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Nantes",
+          "exterieur": "Guingamp",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "2",
+          "domicile": "Montpellier",
+          "exterieur": "Angers",
+          "victoire": "(0-2)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Nice",
+          "exterieur": "Monaco",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Marseille",
+          "exterieur": "Caen",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Bastia",
+          "exterieur": "Rennes",
+          "victoire": "(2-1)"
+        }
+      ]
+    },
+    {
+      "date": "9 Aug",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Bordeaux",
+          "exterieur": "Reims",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Toulouse",
+          "exterieur": "Saint-Etienne",
+          "victoire": "(2-1)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Lyon",
+          "exterieur": "Lorient",
+          "victoire": "(0-0)"
+        }
+      ]
+    }
+  ],
+  "journee_10": [
+    {
+      "date": "16 Oct",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Monaco",
+          "exterieur": "Lyon",
+          "victoire": "(1-1)"
+        }
+      ]
+    },
+    {
+      "date": "17 Oct",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "2",
+          "domicile": "Bastia",
+          "exterieur": "Paris-SG",
+          "victoire": "(0-2)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Guingamp",
+          "exterieur": "Lille",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "0",
+          "domicile": "Nantes",
+          "exterieur": "Troyes",
+          "victoire": "(3-0)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Saint-Etienne",
+          "exterieur": "G. Ajaccio",
+          "victoire": "(2-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Reims",
+          "exterieur": "Caen",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Toulouse",
+          "exterieur": "Angers",
+          "victoire": "(1-2)"
+        }
+      ]
+    },
+    {
+      "date": "18 Oct",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Marseille",
+          "exterieur": "Lorient",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Bordeaux",
+          "exterieur": "Montpellier",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "4",
+          "domicile": "Rennes",
+          "exterieur": "Nice",
+          "victoire": "(1-4)"
+        }
+      ]
+    }
+  ],
+  "journee_11": [
+    {
+      "date": "23 Oct",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "2",
+          "domicile": "Caen",
+          "exterieur": "Nantes",
+          "victoire": "(0-2)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "0",
+          "domicile": "Lyon",
+          "exterieur": "Toulouse",
+          "victoire": "(3-0)"
+        }
+      ]
+    },
+    {
+      "date": "24 Oct",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Lorient",
+          "exterieur": "Rennes",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Angers",
+          "exterieur": "Guingamp",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "1",
+          "domicile": "G. Ajaccio",
+          "exterieur": "Nice",
+          "victoire": "(3-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Montpellier",
+          "exterieur": "Bastia",
+          "victoire": "(2-0)"
+        }
+      ]
+    },
+    {
+      "date": "25 Oct",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Reims",
+          "exterieur": "Monaco",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Bordeaux",
+          "exterieur": "Troyes",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Lille",
+          "exterieur": "Marseille",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "4",
+          "but_ext": "1",
+          "domicile": "Paris-SG",
+          "exterieur": "Saint-Etienne",
+          "victoire": "(4-1)"
+        }
+      ]
+    }
+  ],
+  "journee_12": [
+    {
+      "date": "30 Oct",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Rennes",
+          "exterieur": "Paris-SG",
+          "victoire": "(0-1)"
+        }
+      ]
+    },
+    {
+      "date": "31 Oct",
+      "match": [
+        {
+          "but_dom": "3",
+          "but_ext": "0",
+          "domicile": "Saint-Etienne",
+          "exterieur": "Reims",
+          "victoire": "(3-0)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "2",
+          "domicile": "Guingamp",
+          "exterieur": "Lorient",
+          "victoire": "(2-2)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Troyes",
+          "exterieur": "Lyon",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "G. Ajaccio",
+          "exterieur": "Bordeaux",
+          "victoire": "(2-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Bastia",
+          "exterieur": "Caen",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Toulouse",
+          "exterieur": "Montpellier",
+          "victoire": "(1-1)"
+        }
+      ]
+    },
+    {
+      "date": "1 Nov",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Nice",
+          "exterieur": "Lille",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Monaco",
+          "exterieur": "Angers",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Nantes",
+          "exterieur": "Marseille",
+          "victoire": "(0-1)"
+        }
+      ]
+    }
+  ],
+  "journee_13": [
+    {
+      "date": "6 Nov",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "2",
+          "domicile": "Angers",
+          "exterieur": "Rennes",
+          "victoire": "(0-2)"
+        }
+      ]
+    },
+    {
+      "date": "7 Nov",
+      "match": [
+        {
+          "but_dom": "5",
+          "but_ext": "0",
+          "domicile": "Paris-SG",
+          "exterieur": "Toulouse",
+          "victoire": "(5-0)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Caen",
+          "exterieur": "Guingamp",
+          "victoire": "(2-1)"
+        },
+        {
+          "but_dom": "4",
+          "but_ext": "1",
+          "domicile": "Lorient",
+          "exterieur": "Troyes",
+          "victoire": "(4-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Lille",
+          "exterieur": "Bastia",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Montpellier",
+          "exterieur": "Nantes",
+          "victoire": "(2-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Reims",
+          "exterieur": "G. Ajaccio",
+          "victoire": "(1-2)"
+        }
+      ]
+    },
+    {
+      "date": "8 Nov",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Marseille",
+          "exterieur": "Nice",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "1",
+          "domicile": "Bordeaux",
+          "exterieur": "Monaco",
+          "victoire": "(3-1)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "0",
+          "domicile": "Lyon",
+          "exterieur": "Saint-Etienne",
+          "victoire": "(3-0)"
+        }
+      ]
+    }
+  ],
+  "journee_14": [
+    {
+      "date": "20 Nov",
+      "match": [
+        {
+          "but_dom": "3",
+          "but_ext": "0",
+          "domicile": "Nice",
+          "exterieur": "Lyon",
+          "victoire": "(3-0)"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Lorient",
+          "exterieur": "Paris-SG",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Monaco",
+          "exterieur": "Nantes",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Guingamp",
+          "exterieur": "Toulouse",
+          "victoire": "(2-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Troyes",
+          "exterieur": "Lille",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "1",
+          "domicile": "Montpellier",
+          "exterieur": "Reims",
+          "victoire": "(3-1)"
+        }
+      ]
+    },
+    {
+      "date": "22 Nov",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Caen",
+          "exterieur": "Angers",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Bastia",
+          "exterieur": "G. Ajaccio",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "2",
+          "domicile": "Rennes",
+          "exterieur": "Bordeaux",
+          "victoire": "(2-2)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "2",
+          "domicile": "Saint-Etienne",
+          "exterieur": "Marseille",
+          "victoire": "(0-2)"
+        }
+      ]
+    }
+  ],
+  "journee_15": [
+    {
+      "date": "27 Nov",
+      "match": [
+        {
+          "but_dom": "2",
+          "but_ext": "4",
+          "domicile": "Lyon",
+          "exterieur": "Montpellier",
+          "victoire": "(2-4)"
+        }
+      ]
+    },
+    {
+      "date": "28 Nov",
+      "match": [
+        {
+          "but_dom": "4",
+          "but_ext": "1",
+          "domicile": "Paris-SG",
+          "exterieur": "Troyes",
+          "victoire": "(4-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Angers",
+          "exterieur": "Lille",
+          "victoire": "(2-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Nantes",
+          "exterieur": "Bastia",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "G. Ajaccio",
+          "exterieur": "Lorient",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "2",
+          "domicile": "Reims",
+          "exterieur": "Rennes",
+          "victoire": "(2-2)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Toulouse",
+          "exterieur": "Nice",
+          "victoire": "(2-0)"
+        }
+      ]
+    },
+    {
+      "date": "29 Nov",
+      "match": [
+        {
+          "but_dom": "3",
+          "but_ext": "0",
+          "domicile": "Saint-Etienne",
+          "exterieur": "Guingamp",
+          "victoire": "(3-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "4",
+          "domicile": "Bordeaux",
+          "exterieur": "Caen",
+          "victoire": "(1-4)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "3",
+          "domicile": "Marseille",
+          "exterieur": "Monaco",
+          "victoire": "(3-3)"
+        }
+      ]
+    }
+  ],
+  "journee_16": [
+    {
+      "date": "1 Dec",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Angers",
+          "exterieur": "Paris-SG",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Lorient",
+          "exterieur": "Nice",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Nantes",
+          "exterieur": "Lyon",
+          "victoire": "(0-0)"
+        }
+      ]
+    },
+    {
+      "date": "2 Dec",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Monaco",
+          "exterieur": "Caen",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Guingamp",
+          "exterieur": "Reims",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "3",
+          "domicile": "Troyes",
+          "exterieur": "Toulouse",
+          "victoire": "(0-3)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "2",
+          "domicile": "Montpellier",
+          "exterieur": "G. Ajaccio",
+          "victoire": "(0-2)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Bastia",
+          "exterieur": "Bordeaux",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Lille",
+          "exterieur": "Saint-Etienne",
+          "victoire": "(1-0)"
+        }
+      ]
+    },
+    {
+      "date": "3 Dec",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Rennes",
+          "exterieur": "Marseille",
+          "victoire": "(0-1)"
+        }
+      ]
+    }
+  ],
+  "journee_17": [
+    {
+      "date": "4 Dec",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "3",
+          "domicile": "Nice",
+          "exterieur": "Paris-SG",
+          "victoire": "(0-3)"
+        }
+      ]
+    },
+    {
+      "date": "5 Dec",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "2",
+          "domicile": "Lyon",
+          "exterieur": "Angers",
+          "victoire": "(0-2)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Caen",
+          "exterieur": "Lille",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "G. Ajaccio",
+          "exterieur": "Nantes",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Bastia",
+          "exterieur": "Monaco",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Reims",
+          "exterieur": "Troyes",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "3",
+          "domicile": "Toulouse",
+          "exterieur": "Lorient",
+          "victoire": "(2-3)"
+        }
+      ]
+    },
+    {
+      "date": "6 Dec",
+      "match": [
+        {
+          "but_dom": "2",
+          "but_ext": "2",
+          "domicile": "Marseille",
+          "exterieur": "Montpellier",
+          "victoire": "(2-2)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Bordeaux",
+          "exterieur": "Guingamp",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Saint-Etienne",
+          "exterieur": "Rennes",
+          "victoire": "(1-1)"
+        }
+      ]
+    }
+  ],
+  "journee_18": [
+    {
+      "date": "11 Dec",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Rennes",
+          "exterieur": "Caen",
+          "victoire": "(1-1)"
+        }
+      ]
+    },
+    {
+      "date": "12 Dec",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Reims",
+          "exterieur": "Nice",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Troyes",
+          "exterieur": "Bastia",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Nantes",
+          "exterieur": "Toulouse",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "0",
+          "domicile": "Lille",
+          "exterieur": "Lorient",
+          "victoire": "(3-0)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Montpellier",
+          "exterieur": "Guingamp",
+          "victoire": "(2-1)"
+        }
+      ]
+    },
+    {
+      "date": "13 Dec",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Monaco",
+          "exterieur": "Saint-Etienne",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Angers",
+          "exterieur": "Bordeaux",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Marseille",
+          "exterieur": "G. Ajaccio",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "5",
+          "but_ext": "1",
+          "domicile": "Paris-SG",
+          "exterieur": "Lyon",
+          "victoire": "(5-1)"
+        }
+      ]
+    }
+  ],
+  "journee_19": [
+    {
+      "date": "18 Dec",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Nice",
+          "exterieur": "Montpellier",
+          "victoire": "(1-0)"
+        }
+      ]
+    },
+    {
+      "date": "19 Dec",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "3",
+          "domicile": "Caen",
+          "exterieur": "Paris-SG",
+          "victoire": "(0-3)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "2",
+          "domicile": "Guingamp",
+          "exterieur": "Rennes",
+          "victoire": "(0-2)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Troyes",
+          "exterieur": "Monaco",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Lorient",
+          "exterieur": "Nantes",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Bastia",
+          "exterieur": "Reims",
+          "victoire": "(2-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Toulouse",
+          "exterieur": "Lille",
+          "victoire": "(1-1)"
+        }
+      ]
+    },
+    {
+      "date": "20 Dec",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Saint-Etienne",
+          "exterieur": "Angers",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "G. Ajaccio",
+          "exterieur": "Lyon",
+          "victoire": "(2-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Bordeaux",
+          "exterieur": "Marseille",
+          "victoire": "(1-1)"
+        }
+      ]
+    }
+  ],
+  "journee_2": [
+    {
+      "date": "14 Aug",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Monaco",
+          "exterieur": "Lille",
+          "victoire": "(0-0)"
+        }
+      ]
+    },
+    {
+      "date": "15 Aug",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Saint-Etienne",
+          "exterieur": "Bordeaux",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Angers",
+          "exterieur": "Nantes",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Caen",
+          "exterieur": "Toulouse",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Guingamp",
+          "exterieur": "Lyon",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "3",
+          "domicile": "Troyes",
+          "exterieur": "Nice",
+          "victoire": "(3-3)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Rennes",
+          "exterieur": "Montpellier",
+          "victoire": "(1-0)"
+        }
+      ]
+    },
+    {
+      "date": "16 Aug",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Reims",
+          "exterieur": "Marseille",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Lorient",
+          "exterieur": "Bastia",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Paris-SG",
+          "exterieur": "G. Ajaccio",
+          "victoire": "(2-0)"
+        }
+      ]
+    }
+  ],
+  "journee_3": [
+    {
+      "date": "21 Aug",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Montpellier",
+          "exterieur": "Paris-SG",
+          "victoire": "(0-1)"
+        }
+      ]
+    },
+    {
+      "date": "22 Aug",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Lyon",
+          "exterieur": "Rennes",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Nantes",
+          "exterieur": "Reims",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "2",
+          "domicile": "G. Ajaccio",
+          "exterieur": "Angers",
+          "victoire": "(0-2)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Nice",
+          "exterieur": "Caen",
+          "victoire": "(2-1)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "0",
+          "domicile": "Bastia",
+          "exterieur": "Guingamp",
+          "victoire": "(3-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Toulouse",
+          "exterieur": "Monaco",
+          "victoire": "(1-1)"
+        }
+      ]
+    },
+    {
+      "date": "23 Aug",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Lille",
+          "exterieur": "Bordeaux",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Lorient",
+          "exterieur": "Saint-Etienne",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "6",
+          "but_ext": "0",
+          "domicile": "Marseille",
+          "exterieur": "Troyes",
+          "victoire": "(6-0)"
+        }
+      ]
+    }
+  ],
+  "journee_4": [
+    {
+      "date": "28 Aug",
+      "match": [
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Guingamp",
+          "exterieur": "Marseille",
+          "victoire": "(2-0)"
+        }
+      ]
+    },
+    {
+      "date": "29 Aug",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "4",
+          "domicile": "Caen",
+          "exterieur": "Lyon",
+          "victoire": "(0-4)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Angers",
+          "exterieur": "Nice",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Troyes",
+          "exterieur": "Montpellier",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Lille",
+          "exterieur": "G. Ajaccio",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "1",
+          "domicile": "Rennes",
+          "exterieur": "Toulouse",
+          "victoire": "(3-1)"
+        },
+        {
+          "but_dom": "4",
+          "but_ext": "1",
+          "domicile": "Reims",
+          "exterieur": "Lorient",
+          "victoire": "(4-1)"
+        }
+      ]
+    },
+    {
+      "date": "30 Aug",
+      "match": [
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Saint-Etienne",
+          "exterieur": "Bastia",
+          "victoire": "(2-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Bordeaux",
+          "exterieur": "Nantes",
+          "victoire": "(2-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "3",
+          "domicile": "Monaco",
+          "exterieur": "Paris-SG",
+          "victoire": "(0-3)"
+        }
+      ]
+    }
+  ],
+  "journee_5": [
+    {
+      "date": "11 Sep",
+      "match": [
+        {
+          "but_dom": "2",
+          "but_ext": "2",
+          "domicile": "Paris-SG",
+          "exterieur": "Bordeaux",
+          "victoire": "(2-2)"
+        }
+      ]
+    },
+    {
+      "date": "12 Sep",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Lyon",
+          "exterieur": "Lille",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "3",
+          "domicile": "Troyes",
+          "exterieur": "Caen",
+          "victoire": "(1-3)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "1",
+          "domicile": "Lorient",
+          "exterieur": "Angers",
+          "victoire": "(3-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Montpellier",
+          "exterieur": "Saint-Etienne",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Nice",
+          "exterieur": "Guingamp",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "2",
+          "domicile": "Toulouse",
+          "exterieur": "Reims",
+          "victoire": "(2-2)"
+        }
+      ]
+    },
+    {
+      "date": "13 Sep",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "G. Ajaccio",
+          "exterieur": "Monaco",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "2",
+          "domicile": "Nantes",
+          "exterieur": "Rennes",
+          "victoire": "(0-2)"
+        },
+        {
+          "but_dom": "4",
+          "but_ext": "1",
+          "domicile": "Marseille",
+          "exterieur": "Bastia",
+          "victoire": "(4-1)"
+        }
+      ]
+    }
+  ],
+  "journee_6": [
+    {
+      "date": "18 Sep",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Rennes",
+          "exterieur": "Lille",
+          "victoire": "(1-1)"
+        }
+      ]
+    },
+    {
+      "date": "19 Sep",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Reims",
+          "exterieur": "Paris-SG",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Angers",
+          "exterieur": "Troyes",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Caen",
+          "exterieur": "Montpellier",
+          "victoire": "(2-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Guingamp",
+          "exterieur": "G. Ajaccio",
+          "victoire": "(2-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "3",
+          "domicile": "Bastia",
+          "exterieur": "Nice",
+          "victoire": "(1-3)"
+        }
+      ]
+    },
+    {
+      "date": "20 Sep",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Bordeaux",
+          "exterieur": "Toulouse",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "3",
+          "domicile": "Monaco",
+          "exterieur": "Lorient",
+          "victoire": "(2-3)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Saint-Etienne",
+          "exterieur": "Nantes",
+          "victoire": "(2-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Marseille",
+          "exterieur": "Lyon",
+          "victoire": "(1-1)"
+        }
+      ]
+    }
+  ],
+  "journee_7": [
+    {
+      "date": "22 Sep",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "0",
+          "domicile": "Angers",
+          "exterieur": "Reims",
+          "victoire": "(0-0)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "0",
+          "domicile": "Paris-SG",
+          "exterieur": "Guingamp",
+          "victoire": "(3-0)"
+        }
+      ]
+    },
+    {
+      "date": "23 Sep",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Troyes",
+          "exterieur": "Saint-Etienne",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Lorient",
+          "exterieur": "Caen",
+          "victoire": "(2-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "G. Ajaccio",
+          "exterieur": "Rennes",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "6",
+          "but_ext": "1",
+          "domicile": "Nice",
+          "exterieur": "Bordeaux",
+          "victoire": "(6-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Lyon",
+          "exterieur": "Bastia",
+          "victoire": "(2-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Toulouse",
+          "exterieur": "Marseille",
+          "victoire": "(1-1)"
+        }
+      ]
+    },
+    {
+      "date": "24 Sep",
+      "match": [
+        {
+          "but_dom": "2",
+          "but_ext": "3",
+          "domicile": "Montpellier",
+          "exterieur": "Monaco",
+          "victoire": "(2-3)"
+        }
+      ]
+    },
+    {
+      "date": "29 Sep",
+      "match": [
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Lille",
+          "exterieur": "Nantes",
+          "victoire": "(0-1)"
+        }
+      ]
+    }
+  ],
+  "journee_8": [
+    {
+      "date": "25 Sep",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Reims",
+          "exterieur": "Lille",
+          "victoire": "(1-0)"
+        }
+      ]
+    },
+    {
+      "date": "26 Sep",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "4",
+          "domicile": "Nantes",
+          "exterieur": "Paris-SG",
+          "victoire": "(1-4)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Caen",
+          "exterieur": "G. Ajaccio",
+          "victoire": "(2-0)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "1",
+          "domicile": "Bordeaux",
+          "exterieur": "Lyon",
+          "victoire": "(3-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Rennes",
+          "exterieur": "Troyes",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "0",
+          "domicile": "Bastia",
+          "exterieur": "Toulouse",
+          "victoire": "(3-0)"
+        }
+      ]
+    },
+    {
+      "date": "27 Sep",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Marseille",
+          "exterieur": "Angers",
+          "victoire": "(1-2)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "3",
+          "domicile": "Guingamp",
+          "exterieur": "Monaco",
+          "victoire": "(3-3)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Montpellier",
+          "exterieur": "Lorient",
+          "victoire": "(2-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "4",
+          "domicile": "Saint-Etienne",
+          "exterieur": "Nice",
+          "victoire": "(1-4)"
+        }
+      ]
+    }
+  ],
+  "journee_9": [
+    {
+      "date": "2 Oct",
+      "match": [
+        {
+          "but_dom": "2",
+          "but_ext": "0",
+          "domicile": "Lille",
+          "exterieur": "Montpellier",
+          "victoire": "(2-0)"
+        }
+      ]
+    },
+    {
+      "date": "3 Oct",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Lyon",
+          "exterieur": "Reims",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Angers",
+          "exterieur": "Bastia",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "0",
+          "but_ext": "1",
+          "domicile": "Troyes",
+          "exterieur": "Guingamp",
+          "victoire": "(0-1)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "2",
+          "domicile": "G. Ajaccio",
+          "exterieur": "Toulouse",
+          "victoire": "(2-2)"
+        }
+      ]
+    },
+    {
+      "date": "4 Oct",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "1",
+          "domicile": "Monaco",
+          "exterieur": "Rennes",
+          "victoire": "(1-1)"
+        },
+        {
+          "but_dom": "1",
+          "but_ext": "0",
+          "domicile": "Caen",
+          "exterieur": "Saint-Etienne",
+          "victoire": "(1-0)"
+        },
+        {
+          "but_dom": "3",
+          "but_ext": "2",
+          "domicile": "Lorient",
+          "exterieur": "Bordeaux",
+          "victoire": "(3-2)"
+        },
+        {
+          "but_dom": "2",
+          "but_ext": "1",
+          "domicile": "Paris-SG",
+          "exterieur": "Marseille",
+          "victoire": "(2-1)"
+        }
+      ]
+    },
+    {
+      "date": "4 Nov",
+      "match": [
+        {
+          "but_dom": "1",
+          "but_ext": "2",
+          "domicile": "Nice",
+          "exterieur": "Nantes",
+          "victoire": "(1-2)"
+        }
+      ]
+    }
+  ]
+}
