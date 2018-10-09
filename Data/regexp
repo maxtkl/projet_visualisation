@@ -14,6 +14,11 @@ remplace
 remplace
 {\n"domicile": "$1",\n"exterieur": "$4",\n"but_dom": "$2",\n"but_ext": "$3"\n"victoire": "($2-$3)"\n},
 
+delete comments:
+^([-\w]+ +(\d-\d|[\w]{3}) [-\w]+ *)(.+)
+remplace
+$1
+
 \ +",*$
 remplace
 ",
