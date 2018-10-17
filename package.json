@@ -31,6 +31,7 @@
     "chartjs": "^0.3.24",
     "jquery": "^3.3.1",
     "plotly": "^1.0.6",
+    "plotly.js": "^1.41.3",
     "punycode": "^2.1.1",
     "underscore": "^1.9.1",
     "url": "^0.11.0",

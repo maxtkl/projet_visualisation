@@ -1,13 +1,13 @@
 import _ from "underscore"
-
-
-
-var TESTER = document.getElementById('tester');
-	Plotly.plot( TESTER, [{
-	x: [1, 2, 3, 4, 5],
-	y: [1, 2, 4, 8, 16] }], {
-	margin: { t: 0 } } );
+import $ from "jquery"
+import plotly from "plotly.js/dist/plotly"
 
 $(document).ready(function() {
 	console.log("ok")
+
+	var TESTER = document.getElementById('tester');
+	plotly.plot( TESTER, [{
+	x: [1, 2, 3, 4, 5],
+	y: [1, 2, 4, 8, 16] }], {
+	margin: { t: 0 } } );
 });
