@@ -1,3 +1,6 @@
 import _ from "underscore"
 
-console.log("ok");
+
+$(document).ready(function() {
+	console.log("ok")
+});
