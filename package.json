@@ -1,43 +1,38 @@
 {
-  "name": "projet_visualisation",
-  "version": "1.0.0",
-  "description": "ligue 1",
-  "main": "bundle.js",
-  "scripts": {
-    "start": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/maxtkl/projet_visualisation.git"
-  },
-  "keywords": [
-    "ligue1",
-    "foot"
-  ],
-  "author": "Maxime Trinkl Alice Lejeune",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/maxtkl/projet_visualisation/issues"
-  },
-  "homepage": "https://github.com/maxtkl/projet_visualisation#readme",
-  "dev-dependencies": {
-    "underscore": "^1.9.1",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.9"
-  },
-  "dependencies": {
-    "chart.js": "^2.7.3",
-    "chartjs": "^0.3.24",
-    "jquery": "^3.3.1",
-    "plotly": "^1.0.6",
-    "plotly.js": "^1.42.5",
-    "punycode": "^2.1.1",
-    "underscore": "^1.9.1",
-    "url": "^0.11.0",
-    "webpack": "^4.25.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
-  }
+    "name": "projet_visualisation",
+    "version": "1.0.0",
+    "description": "ligue 1",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --mode development --open --color",
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/maxtkl/projet_visualisation.git"
+    },
+    "keywords": [
+        "ligue1",
+        "foot"
+    ],
+    "author": "Maxime Trinkl Alice Lejeune",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maxtkl/projet_visualisation/issues"
+    },
+    "homepage": "https://github.com/maxtkl/projet_visualisation#readme",
+    "devDependencies": {
+        "webpack": "^4.26.0",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.10"
+    },
+    "dependencies": {
+        "bootstrap": "^4.1.3",
+        "chart.js": "^2.7.3",
+        "jquery": "^3.3.1",
+        "plotly": "^1.0.6",
+        "popper.js": "^1.14.5"
+    }
 }

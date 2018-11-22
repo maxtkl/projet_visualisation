@@ -1,7 +1,6 @@
-import _ from "underscore"
-import $ from "jquery"
+import jquery from "jquery"
 import Plotly from "plotly.js/dist/plotly"
-import Chart from 'chart.js';
+import Chart from "chart.js";
 
 $(document).ready(function() {
 	console.log("ok")
