@@ -1,5 +1,5 @@
-import jquery from "jquery"
-import Plotly from "plotly.js/dist/plotly"
+import $ from "jquery"
+import Plotly from 'plotly.js-dist';
 import Chart from "chart.js";
 
 $(document).ready(function() {
