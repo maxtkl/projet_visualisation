@@ -3,26 +3,32 @@ import Plotly from 'plotly.js-dist';
 import Chart from "chart.js";
 
 $(document).ready(function() {
-	console.log("ok")
+	console.log("ok ok ok")
 
-	var TESTER = document.getElementById('tester');
-
-	Plotly.plot( TESTER, [{
-    x: [1, 2, 3, 4, 5],
-    y: [1, 2, 4, 8, 16] }], { 
-	margin: { t: 0 } } );
-	
 	var year1 = require("../Data/2015_16.json")
 	var year2 = require("../Data/2016_17.json")
-	console.log(year1)
-	console.log(year2)
+	var year3 = require("../Data/2017_18.json")
+
+	var equipes = []
+	
+	for (var i = 0; i < year1.journee_1.length; i++) {
+		for (var j = 0; j < year1.journee_1[i].match.length; j++) {
+			equipes.push(year1.journee_1[i].match[j].domicile)
+			equipes.push(year1.journee_1[i].match[j].exterieur)
+		}
+	}
+
+	console.log(year1.journee_1)
+	console.log(equipes)
+
+
 
 	var ctx = document.getElementById("myChart");
 	
 	var myChart = new Chart(ctx, {
 		type: 'bar',
 		data: {
-			labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+			labels: equipes,
 			datasets: [{
 				label: '# of Votes',
 				data: [12, 19, 3, 5, 2, 3],
