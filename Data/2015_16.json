@@ -1,7 +1,7 @@
 {
-  "journee_1": [
+  "journee_01": [
     {
-      "date": "7 Aug",
+
       "match": [
         {
           "but_dom": "0",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "date": "8 Aug",
+
       "match": [
         {
           "but_dom": "0",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "date": "9 Aug",
+
       "match": [
         {
           "but_dom": "1",
@@ -88,7 +88,7 @@
   ],
   "journee_10": [
     {
-      "date": "16 Oct",
+
       "match": [
         {
           "but_dom": "1",
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "date": "17 Oct",
+
       "match": [
         {
           "but_dom": "0",
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "date": "18 Oct",
+
       "match": [
         {
           "but_dom": "1",
@@ -175,7 +175,7 @@
   ],
   "journee_11": [
     {
-      "date": "23 Oct",
+
       "match": [
         {
           "but_dom": "0",
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "date": "24 Oct",
+
       "match": [
         {
           "but_dom": "1",
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "date": "25 Oct",
+
       "match": [
         {
           "but_dom": "0",
@@ -262,7 +262,7 @@
   ],
   "journee_12": [
     {
-      "date": "30 Oct",
+
       "match": [
         {
           "but_dom": "0",
@@ -274,7 +274,7 @@
       ]
     },
     {
-      "date": "31 Oct",
+
       "match": [
         {
           "but_dom": "3",
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "date": "1 Nov",
+
       "match": [
         {
           "but_dom": "0",
@@ -349,7 +349,7 @@
   ],
   "journee_13": [
     {
-      "date": "6 Nov",
+
       "match": [
         {
           "but_dom": "0",
@@ -361,7 +361,7 @@
       ]
     },
     {
-      "date": "7 Nov",
+
       "match": [
         {
           "but_dom": "5",
@@ -408,7 +408,7 @@
       ]
     },
     {
-      "date": "8 Nov",
+
       "match": [
         {
           "but_dom": "0",
@@ -436,7 +436,7 @@
   ],
   "journee_14": [
     {
-      "date": "20 Nov",
+
       "match": [
         {
           "but_dom": "3",
@@ -448,7 +448,7 @@
       ]
     },
     {
-      "date": "21 Nov",
+
       "match": [
         {
           "but_dom": "1",
@@ -488,7 +488,7 @@
       ]
     },
     {
-      "date": "22 Nov",
+
       "match": [
         {
           "but_dom": "0",
@@ -523,7 +523,7 @@
   ],
   "journee_15": [
     {
-      "date": "27 Nov",
+
       "match": [
         {
           "but_dom": "2",
@@ -535,7 +535,7 @@
       ]
     },
     {
-      "date": "28 Nov",
+
       "match": [
         {
           "but_dom": "4",
@@ -582,7 +582,7 @@
       ]
     },
     {
-      "date": "29 Nov",
+
       "match": [
         {
           "but_dom": "3",
@@ -610,7 +610,7 @@
   ],
   "journee_16": [
     {
-      "date": "1 Dec",
+
       "match": [
         {
           "but_dom": "0",
@@ -636,7 +636,7 @@
       ]
     },
     {
-      "date": "2 Dec",
+
       "match": [
         {
           "but_dom": "1",
@@ -683,7 +683,7 @@
       ]
     },
     {
-      "date": "3 Dec",
+
       "match": [
         {
           "but_dom": "0",
@@ -697,7 +697,7 @@
   ],
   "journee_17": [
     {
-      "date": "4 Dec",
+
       "match": [
         {
           "but_dom": "0",
@@ -709,7 +709,7 @@
       ]
     },
     {
-      "date": "5 Dec",
+
       "match": [
         {
           "but_dom": "0",
@@ -756,7 +756,7 @@
       ]
     },
     {
-      "date": "6 Dec",
+
       "match": [
         {
           "but_dom": "2",
@@ -784,7 +784,7 @@
   ],
   "journee_18": [
     {
-      "date": "11 Dec",
+
       "match": [
         {
           "but_dom": "1",
@@ -796,7 +796,7 @@
       ]
     },
     {
-      "date": "12 Dec",
+
       "match": [
         {
           "but_dom": "1",
@@ -836,7 +836,7 @@
       ]
     },
     {
-      "date": "13 Dec",
+
       "match": [
         {
           "but_dom": "1",
@@ -871,7 +871,7 @@
   ],
   "journee_19": [
     {
-      "date": "18 Dec",
+
       "match": [
         {
           "but_dom": "1",
@@ -883,7 +883,7 @@
       ]
     },
     {
-      "date": "19 Dec",
+
       "match": [
         {
           "but_dom": "0",
@@ -930,7 +930,7 @@
       ]
     },
     {
-      "date": "20 Dec",
+
       "match": [
         {
           "but_dom": "1",
@@ -956,9 +956,9 @@
       ]
     }
   ],
-  "journee_2": [
+  "journee_02": [
     {
-      "date": "14 Aug",
+
       "match": [
         {
           "but_dom": "0",
@@ -970,7 +970,7 @@
       ]
     },
     {
-      "date": "15 Aug",
+
       "match": [
         {
           "but_dom": "1",
@@ -1017,7 +1017,7 @@
       ]
     },
     {
-      "date": "16 Aug",
+
       "match": [
         {
           "but_dom": "1",
@@ -1043,9 +1043,9 @@
       ]
     }
   ],
-  "journee_3": [
+  "journee_03": [
     {
-      "date": "21 Aug",
+
       "match": [
         {
           "but_dom": "0",
@@ -1057,7 +1057,7 @@
       ]
     },
     {
-      "date": "22 Aug",
+
       "match": [
         {
           "but_dom": "1",
@@ -1104,7 +1104,7 @@
       ]
     },
     {
-      "date": "23 Aug",
+
       "match": [
         {
           "but_dom": "0",
@@ -1130,9 +1130,9 @@
       ]
     }
   ],
-  "journee_4": [
+  "journee_04": [
     {
-      "date": "28 Aug",
+
       "match": [
         {
           "but_dom": "2",
@@ -1144,7 +1144,7 @@
       ]
     },
     {
-      "date": "29 Aug",
+
       "match": [
         {
           "but_dom": "0",
@@ -1191,7 +1191,7 @@
       ]
     },
     {
-      "date": "30 Aug",
+
       "match": [
         {
           "but_dom": "2",
@@ -1217,9 +1217,9 @@
       ]
     }
   ],
-  "journee_5": [
+  "journee_05": [
     {
-      "date": "11 Sep",
+
       "match": [
         {
           "but_dom": "2",
@@ -1231,7 +1231,7 @@
       ]
     },
     {
-      "date": "12 Sep",
+
       "match": [
         {
           "but_dom": "0",
@@ -1278,7 +1278,7 @@
       ]
     },
     {
-      "date": "13 Sep",
+
       "match": [
         {
           "but_dom": "0",
@@ -1304,9 +1304,9 @@
       ]
     }
   ],
-  "journee_6": [
+  "journee_06": [
     {
-      "date": "18 Sep",
+
       "match": [
         {
           "but_dom": "1",
@@ -1318,7 +1318,7 @@
       ]
     },
     {
-      "date": "19 Sep",
+
       "match": [
         {
           "but_dom": "1",
@@ -1358,7 +1358,7 @@
       ]
     },
     {
-      "date": "20 Sep",
+
       "match": [
         {
           "but_dom": "1",
@@ -1391,9 +1391,9 @@
       ]
     }
   ],
-  "journee_7": [
+  "journee_07": [
     {
-      "date": "22 Sep",
+
       "match": [
         {
           "but_dom": "0",
@@ -1412,7 +1412,7 @@
       ]
     },
     {
-      "date": "23 Sep",
+
       "match": [
         {
           "but_dom": "0",
@@ -1459,7 +1459,7 @@
       ]
     },
     {
-      "date": "24 Sep",
+
       "match": [
         {
           "but_dom": "2",
@@ -1471,7 +1471,7 @@
       ]
     },
     {
-      "date": "29 Sep",
+
       "match": [
         {
           "but_dom": "0",
@@ -1483,9 +1483,9 @@
       ]
     }
   ],
-  "journee_8": [
+  "journee_08": [
     {
-      "date": "25 Sep",
+
       "match": [
         {
           "but_dom": "1",
@@ -1497,7 +1497,7 @@
       ]
     },
     {
-      "date": "26 Sep",
+
       "match": [
         {
           "but_dom": "1",
@@ -1537,7 +1537,7 @@
       ]
     },
     {
-      "date": "27 Sep",
+
       "match": [
         {
           "but_dom": "1",
@@ -1570,9 +1570,9 @@
       ]
     }
   ],
-  "journee_9": [
+  "journee_09": [
     {
-      "date": "2 Oct",
+
       "match": [
         {
           "but_dom": "2",
@@ -1584,7 +1584,7 @@
       ]
     },
     {
-      "date": "3 Oct",
+
       "match": [
         {
           "but_dom": "1",
@@ -1617,7 +1617,7 @@
       ]
     },
     {
-      "date": "4 Oct",
+
       "match": [
         {
           "but_dom": "1",
@@ -1650,7 +1650,7 @@
       ]
     },
     {
-      "date": "4 Nov",
+
       "match": [
         {
           "but_dom": "1",
