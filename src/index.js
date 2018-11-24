@@ -149,87 +149,11 @@ $(document).ready(function() {
 
 	var point_38 = point(38,year2)
 	var evolution_monaco = evol_equipe("Monaco", year2)
-<<<<<<< HEAD
+
 	//var test = classement(year2)
 
 	console.log(classement(1,year2))
 
-	// var ctx = document.getElementById("myChart");
-	// var myChart = new Chart(ctx, {
-	// 	type: 'bar',
-	// 	data: {
-	// 		labels: point_38[0],
-	// 		datasets: [{
-	// 			label: 'points',
-	// 			data: point_38[1],
-	// 			backgroundColor: [
-	// 				'rgba(255, 99, 132, 0.2)',
-	// 				'rgba(54, 162, 235, 0.2)',
-	// 				'rgba(255, 206, 86, 0.2)',
-	// 				'rgba(75, 192, 192, 0.2)',
-	// 				'rgba(153, 102, 255, 0.2)',
-	// 				'rgba(255, 159, 64, 0.2)'
-	// 			],
-	// 			borderColor: [
-	// 				'rgba(255,99,132,1)',
-	// 				'rgba(54, 162, 235, 1)',
-	// 				'rgba(255, 206, 86, 1)',
-	// 				'rgba(75, 192, 192, 1)',
-	// 				'rgba(153, 102, 255, 1)',
-	// 				'rgba(255, 159, 64, 1)'
-	// 			],
-	// 			borderWidth: 1
-	// 		}]
-	// 	},
-	// 	options: {
-	// 		scales: {
-	// 			yAxes: [{
-	// 				ticks: {
-	// 					beginAtZero:true
-	// 				}
-	// 			}]
-	// 		}
-	// 	}
-	// });
-	// var ctx2 = document.getElementById("myChart2");
-	// var myChart = new Chart(ctx2, {
-	// 	type: 'bar',
-	// 	data: {
-	// 		labels: nb_journee,
-	// 		datasets: [{
-	// 			label: 'points',
-	// 			data: evolution_monaco,
-	// 			backgroundColor: [
-	// 				'rgba(255, 99, 132, 0.2)',
-	// 				'rgba(54, 162, 235, 0.2)',
-	// 				'rgba(255, 206, 86, 0.2)',
-	// 				'rgba(75, 192, 192, 0.2)',
-	// 				'rgba(153, 102, 255, 0.2)',
-	// 				'rgba(255, 159, 64, 0.2)'
-	// 			],
-	// 			borderColor: [
-	// 				'rgba(255,99,132,1)',
-	// 				'rgba(54, 162, 235, 1)',
-	// 				'rgba(255, 206, 86, 1)',
-	// 				'rgba(75, 192, 192, 1)',
-	// 				'rgba(153, 102, 255, 1)',
-	// 				'rgba(255, 159, 64, 1)'
-	// 			],
-	// 			borderWidth: 1
-	// 		}]
-	// 	},
-	// 	options: {
-	// 		scales: {
-	// 			yAxes: [{
-	// 				ticks: {
-	// 					beginAtZero:true
-	// 				}
-	// 			}]
-	// 		}
-	// 	}
-	// });
-=======
-	var test = classement(year2)
 
 	var ctx = document.getElementById("myChart");
 	var myChart = new Chart(ctx, {
@@ -313,5 +237,4 @@ $(document).ready(function() {
 			}
 		}
 	});
->>>>>>> 4142f668f490fdca3670f8a1ce7d91ca39410560
 });
