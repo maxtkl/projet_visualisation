@@ -7,6 +7,7 @@ import Chart from "chart.js";
 function point(journee_max, year_obj) {
 	var temp = {}
 	var cpt = 0
+
 	//initialisation de l'objet avec les equipes en clé et 0 en nombre de points
 	for (var i = 0; i < year_obj.journee_01.length; i++) {
 		for (var j = 0; j < year_obj.journee_01[i].match.length; j++) {
@@ -14,6 +15,7 @@ function point(journee_max, year_obj) {
 			temp[year_obj.journee_01[i].match[j].exterieur] = 0
 		}
 	}
+
 
 	// on boucle sur toutes les journées d'une année
 	for (var journee in year_obj) {
@@ -89,32 +91,39 @@ function evol_equipe(equipe, year_obj){
 }
 
 // retourne un tableau avec la position d'une equipe a chaque journée
-function classement(year_obj) {
+function classement(journee, year_obj) {
+	var cpt = 1
 	var temp = {}
-	// tableau du classement: equipe, points, but marqué, but encaissé, diff de but, position
 	var classement = []
 
 	//initialisation de l'objet avec les equipes en clé et 0 en nombre de points
 	for (var i = 0; i < year_obj.journee_01.length; i++) {
 		for (var j = 0; j < year_obj.journee_01[i].match.length; j++) {
-			temp[year_obj.journee_01[i].match[j].domicile] = 0
-			temp[year_obj.journee_01[i].match[j].exterieur] = 0
+			temp[year_obj.journee_01[i].match[j].domicile] = [[0],[0,0,0,0,0]]
+			temp[year_obj.journee_01[i].match[j].exterieur] = [[0],[0,0,0,0,0]]
 		}
 	}
 
-	//on boucle sur toutes les journées d'une année
+	// on boucle sur toutes les journées d'une année
 	for (var journee in year_obj) {
 		// on boucle sur toutes les dates
 		for (var i = 0; i < year_obj[journee].length; i++) {
 			// on boucle sur les matchs de chaque date
 			for (var j = 0; j < year_obj[journee][i].match.length; j++) {
-				
+				if (year_obj[journee][i].match[j].but_dom > year_obj[journee][i].match[j].but_ext) {
+					temp[year_obj[journee][i].match[j].domicile] = [[cpt],[1,1,1,1,1]]
+				} else if (year_obj[journee][i].match[j].but_dom < year_obj[journee][i].match[j].but_ext) {
+					temp[year_obj[journee][i].match[j].exterieur] = [[cpt],[1,1,1,1,1]]
+				} else {
+					temp[year_obj[journee][i].match[j].domicile] = [[cpt],[1,1,1,1,1]]
+					temp[year_obj[journee][i].match[j].exterieur] = [[cpt],[1,1,1,1,1]]
+				}
 			}
 		}
-
+		cpt ++
 	}
 
-	return classement
+	return temp
 }
 
 $(document).ready(function() {
@@ -122,6 +131,9 @@ $(document).ready(function() {
 	var year2 = require("../Data/2016_17.json")
 	var year3 = require("../Data/2017_18.json")
 	var nb_journee = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38]
+
+
+	console.log(year2)
 
 	// tableau des equipes de la première année
 	var equipes = []
@@ -135,80 +147,82 @@ $(document).ready(function() {
 
 	var point_38 = point(38,year2)
 	var evolution_monaco = evol_equipe("Monaco", year2)
-	var test = classement(year2)
+	//var test = classement(year2)
 
-	var ctx = document.getElementById("myChart");
-	var myChart = new Chart(ctx, {
-		type: 'bar',
-		data: {
-			labels: point_38[0],
-			datasets: [{
-				label: 'points',
-				data: point_38[1],
-				backgroundColor: [
-					'rgba(255, 99, 132, 0.2)',
-					'rgba(54, 162, 235, 0.2)',
-					'rgba(255, 206, 86, 0.2)',
-					'rgba(75, 192, 192, 0.2)',
-					'rgba(153, 102, 255, 0.2)',
-					'rgba(255, 159, 64, 0.2)'
-				],
-				borderColor: [
-					'rgba(255,99,132,1)',
-					'rgba(54, 162, 235, 1)',
-					'rgba(255, 206, 86, 1)',
-					'rgba(75, 192, 192, 1)',
-					'rgba(153, 102, 255, 1)',
-					'rgba(255, 159, 64, 1)'
-				],
-				borderWidth: 1
-			}]
-		},
-		options: {
-			scales: {
-				yAxes: [{
-					ticks: {
-						beginAtZero:true
-					}
-				}]
-			}
-		}
-	});
-	var ctx2 = document.getElementById("myChart2");
-	var myChart = new Chart(ctx2, {
-		type: 'bar',
-		data: {
-			labels: evolution_monaco,
-			datasets: [{
-				label: 'points',
-				data: nb_journee,
-				backgroundColor: [
-					'rgba(255, 99, 132, 0.2)',
-					'rgba(54, 162, 235, 0.2)',
-					'rgba(255, 206, 86, 0.2)',
-					'rgba(75, 192, 192, 0.2)',
-					'rgba(153, 102, 255, 0.2)',
-					'rgba(255, 159, 64, 0.2)'
-				],
-				borderColor: [
-					'rgba(255,99,132,1)',
-					'rgba(54, 162, 235, 1)',
-					'rgba(255, 206, 86, 1)',
-					'rgba(75, 192, 192, 1)',
-					'rgba(153, 102, 255, 1)',
-					'rgba(255, 159, 64, 1)'
-				],
-				borderWidth: 1
-			}]
-		},
-		options: {
-			scales: {
-				yAxes: [{
-					ticks: {
-						beginAtZero:true
-					}
-				}]
-			}
-		}
-	});
+	console.log(classement(1,year2))
+
+	// var ctx = document.getElementById("myChart");
+	// var myChart = new Chart(ctx, {
+	// 	type: 'bar',
+	// 	data: {
+	// 		labels: point_38[0],
+	// 		datasets: [{
+	// 			label: 'points',
+	// 			data: point_38[1],
+	// 			backgroundColor: [
+	// 				'rgba(255, 99, 132, 0.2)',
+	// 				'rgba(54, 162, 235, 0.2)',
+	// 				'rgba(255, 206, 86, 0.2)',
+	// 				'rgba(75, 192, 192, 0.2)',
+	// 				'rgba(153, 102, 255, 0.2)',
+	// 				'rgba(255, 159, 64, 0.2)'
+	// 			],
+	// 			borderColor: [
+	// 				'rgba(255,99,132,1)',
+	// 				'rgba(54, 162, 235, 1)',
+	// 				'rgba(255, 206, 86, 1)',
+	// 				'rgba(75, 192, 192, 1)',
+	// 				'rgba(153, 102, 255, 1)',
+	// 				'rgba(255, 159, 64, 1)'
+	// 			],
+	// 			borderWidth: 1
+	// 		}]
+	// 	},
+	// 	options: {
+	// 		scales: {
+	// 			yAxes: [{
+	// 				ticks: {
+	// 					beginAtZero:true
+	// 				}
+	// 			}]
+	// 		}
+	// 	}
+	// });
+	// var ctx2 = document.getElementById("myChart2");
+	// var myChart = new Chart(ctx2, {
+	// 	type: 'bar',
+	// 	data: {
+	// 		labels: nb_journee,
+	// 		datasets: [{
+	// 			label: 'points',
+	// 			data: evolution_monaco,
+	// 			backgroundColor: [
+	// 				'rgba(255, 99, 132, 0.2)',
+	// 				'rgba(54, 162, 235, 0.2)',
+	// 				'rgba(255, 206, 86, 0.2)',
+	// 				'rgba(75, 192, 192, 0.2)',
+	// 				'rgba(153, 102, 255, 0.2)',
+	// 				'rgba(255, 159, 64, 0.2)'
+	// 			],
+	// 			borderColor: [
+	// 				'rgba(255,99,132,1)',
+	// 				'rgba(54, 162, 235, 1)',
+	// 				'rgba(255, 206, 86, 1)',
+	// 				'rgba(75, 192, 192, 1)',
+	// 				'rgba(153, 102, 255, 1)',
+	// 				'rgba(255, 159, 64, 1)'
+	// 			],
+	// 			borderWidth: 1
+	// 		}]
+	// 	},
+	// 	options: {
+	// 		scales: {
+	// 			yAxes: [{
+	// 				ticks: {
+	// 					beginAtZero:true
+	// 				}
+	// 			}]
+	// 		}
+	// 	}
+	// });
 });
