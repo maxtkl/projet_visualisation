@@ -3,7 +3,7 @@ import Plotly from 'plotly.js-dist';
 import Chart from "chart.js";
 
 // récupère un objet et une journée et retourne un tableau avec les equipes
-// avec leur nombre de points 
+// et leur nombre de points 
 function point(journee_max, year_obj) {
 	var temp = {}
 	var cpt = 0
@@ -117,6 +117,8 @@ function classement(year_obj) {
 	return classement
 }
 
+
+
 $(document).ready(function() {
 	var year1 = require("../Data/2015_16.json")
 	var year2 = require("../Data/2016_17.json")
@@ -165,6 +167,10 @@ $(document).ready(function() {
 			}]
 		},
 		options: {
+			title: {
+				display: true,
+				text: 'Points des équipes à la 38ème journée'
+			},
 			scales: {
 				yAxes: [{
 					ticks: {
@@ -178,10 +184,10 @@ $(document).ready(function() {
 	var myChart = new Chart(ctx2, {
 		type: 'bar',
 		data: {
-			labels: evolution_monaco,
+			labels: nb_journee,
 			datasets: [{
 				label: 'points',
-				data: nb_journee,
+				data: evolution_monaco,
 				backgroundColor: [
 					'rgba(255, 99, 132, 0.2)',
 					'rgba(54, 162, 235, 0.2)',
@@ -202,6 +208,10 @@ $(document).ready(function() {
 			}]
 		},
 		options: {
+			title: {
+				display: true,
+				text: 'Evolution de Monaco sur toutes les journées (nombre de points)'
+			},
 			scales: {
 				yAxes: [{
 					ticks: {
