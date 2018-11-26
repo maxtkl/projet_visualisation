@@ -1,7 +1,7 @@
 import $ from "jquery"
-import Plotly from 'plotly.js-dist';
-import Chart from "chart.js";
-import 'bootstrap';
+import Plotly from 'plotly.js-dist'
+import Chart from "chart.js"
+
 
 // récupère un objet et une journée et retourne un tableau avec les equipes
 // et leur nombre de points 
