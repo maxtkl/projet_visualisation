@@ -213,7 +213,7 @@ $(document).ready(function() {
 		options: {
 			title: {
 				display: true,
-				text: 'Points des équipes à la 38ème journée'
+				text: "Points des équipes à la 38ème journée de l'année 2016-17"
 			},
 			scales: {
 				yAxes: [{
@@ -246,7 +246,7 @@ $(document).ready(function() {
 		options: {
 			title: {
 				display: true,
-				text: "Evolution d'une équipe en nombre de points au cours des journées"
+				text: "Evolution d'une équipe en nombre de points au cours des journées de l'année 2016-17"
 			},
 			scales: {
 				yAxes: [{
@@ -281,7 +281,7 @@ $(document).ready(function() {
 		options: {
 			title: {
 				display: true,
-				text: "Evolution d'une équipe en nombre de points au cours des journées"
+				text: "Evolution d'une équipe en nombre de points au cours des journées de l'année 2016-17"
 			},
 			scales: {
 				yAxes: [{
