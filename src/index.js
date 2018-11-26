@@ -125,13 +125,9 @@ function get_team_year(year_obj){
 function get_matchs_repartition(equipe, tableau){
 	var matchs = []
 
-	for (var i = 0; i < tableau.length; i++) {
-		for (var j = 0; j < tableau[i].length; j++) {
-			if (equipe == tableau[i][j][0]) {
-				matchs[0] = tableau[i][j][4]
-				matchs[1] = tableau[i][j][5]
-				matchs[2] = tableau[i][j][6]
-			}
+	for (var i = 0; i < tableau[0].length; i++) {
+		if (equipe == tableau[37][i][0]) {
+			matchs.push(tableau[37][i][5],tableau[37][i][6],tableau[37][i][7])
 		}
 	}
 	return matchs
@@ -310,9 +306,6 @@ $(document).ready(function() {
 	var point_38 = point(38,year2)
 	var evolution_monaco = evol_equipe("Monaco", year2)
 	var position_monaco = evolution_position("Monaco", classement(38, year2))
-
-	console.log(year1)
-	console.log(classement(38,year1))
 
 	// Histogramme pour le nombre de points des équipes à la 38ème journée
 	var ctx = document.getElementById("points_equipe_38");
