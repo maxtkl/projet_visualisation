@@ -223,7 +223,7 @@ $(document).ready(function() {
 
 	//var test = classement(year2)
 
-	console.log(classement(1,year2))
+	//console.log(classement(1,year2))
 
 	// Histogramme pour le nombre de points des équipes à la 38ème journée
 	var ctx = document.getElementById("points_equipe_38");
@@ -331,9 +331,6 @@ $(document).ready(function() {
 		}
 	});
 
-		console.log(points_par_journee.data.datasets.data)
-		// points_par_journee.update()
-
 	});
 
 	// Evolution d'une équipe en nombre de points au cours des journées
@@ -344,7 +341,7 @@ $(document).ready(function() {
 			labels: nb_journee,
 			datasets: [{
 				label: 'points',
-				data: evol_equipe("Bastia", year2),
+				data: evol_equipe("Angers", year2),
 				borderColor: 'rgba(255, 99, 132)',
 				fill: false
 			}]
