@@ -16,7 +16,6 @@ function point(journee_max, year_obj) {
 		}
 	}
 
-
 	// on boucle sur toutes les journées d'une année
 	for (var journee in year_obj) {
 		cpt ++
@@ -175,22 +174,29 @@ function classement(journee, year_obj) {
 
 	// on retourne l'objet dans un tableau
 	var classement = []
-	var temp = []
 
 	for (var s = 1; s <= 38; s++) {
+		var temp = []
 		for (var team in obj) {
-			temp.push([team, obj[team][s][0],obj[team][s][1],obj[team][s][2],obj[team][s][3]], 20)
+			temp.push([team, obj[team][s][0],obj[team][s][1],obj[team][s][2],obj[team][s][3]])
+		}
+		// on trie les tableau de chaque journée pour les afficher dans la position du classement
+		temp.sort(function (a, b) {
+			if(a[1] == b[1]) {
+				if(a[2] == b[2]) {
+					return (a[3] < b[3]) ? 1 : (a[3] > b[3]) ? -1 : 0;
+				} else {
+					return (a[2] < b[2]) ? 1 : -1;
+				}
+			} else {
+				return (a[1] < b[1]) ? 1 : -1;
+			}
+		})
+		for (var t = 0; t < temp.length; t++) {
+			temp[t] = [temp[t][0],temp[t][1],temp[t][2],temp[t][3],temp[t][4],(t+1)]
 		}
 		classement.push(temp)
-		temp = []
 	}
-
-	for (var s = 1; s <= 38; s++) {
-		for (var team in obj) {
-
-		}
-	}
-
 	return classement
 }
 
