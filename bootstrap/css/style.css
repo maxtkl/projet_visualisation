@@ -1,0 +1,92 @@
+
+html {
+  margin:0;
+  padding:0;
+  /*background: url(/image/terrain_foot.jpg) no-repeat center fixed; */
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+div {
+	/*color: white;*/
+}
+
+body {
+	/*background-color: transparent;*/
+}
+
+footer {
+	margin-bottom: 15px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+thead {
+	font-weight: bold;
+    border-bottom: 1px solid #aaaaaa;
+    margin: 0px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.panel * {
+	text-decoration: none;
+	color: black;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+	color: black;
+}
+
+label {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.panel {
+	color: black;
+}
+
+.navbar {
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+}
+
+
+.row {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.page-header {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.footer {
+	text-decoration: none;
+	color: white;
+}
+
+.footer:hover {
+	color: white;
+}
+
+.hover:hover {
+	background-color: #f5f5f5;
+}
+
+#create_user {
+	color: grey;
+}
