@@ -56,7 +56,8 @@ function point(journee_max, year_obj) {
 function evol_equipe(equipe, year_obj){
 	var point_equipe = []
 	var point = 0
-	// on boucle sur toutes les journées d'une année
+
+	//on boucle sur toutes les journées d'une année
 	for (var journee in year_obj) {
 		// on boucle sur toutes les dates
 		for (var i = 0; i < year_obj[journee].length; i++) {
@@ -89,6 +90,33 @@ function evol_equipe(equipe, year_obj){
 		}
 	}
 	return point_equipe
+}
+
+function evolution_position(equipe, tableau){
+	var position = []
+
+	for (var i = 0; i < tableau.length; i++) {
+		for (var j = 0; j < tableau[i].length; j++) {
+			if (equipe == tableau[i][j][0]) {
+				position.push(tableau[i][j][5])
+			}
+		}
+		
+	}
+	return position
+}
+
+function get_team_year(year_obj){
+	var team = []
+
+	for (var i = 0; i < year_obj.journee_01.length; i++) {
+		for (var j = 0; j < year_obj.journee_01[i].match.length; j++) {
+			team.push(year_obj.journee_01[i].match[j].domicile)
+			team.push(year_obj.journee_01[i].match[j].exterieur)
+		}
+	}
+	team.sort()
+	return team
 }
 
 // retourne un tableau avec la position d'une equipe a chaque journée
@@ -220,10 +248,19 @@ $(document).ready(function() {
 
 	var point_38 = point(38,year2)
 	var evolution_monaco = evol_equipe("Monaco", year2)
+	var position_monaco = evolution_position("Monaco", classement(38, year2))
 
-	//var test = classement(year2)
+	console.log("année1:")
+	console.log(get_team_year(year1))
+	console.log("année2:")
+	console.log(get_team_year(year2))
+	console.log("année3:")
+	console.log(get_team_year(year3))
 
-	//console.log(classement(1,year2))
+	console.log("autre")
+	console.log(position_monaco)
+	console.log(classement(38, year2))
+
 
 	// Histogramme pour le nombre de points des équipes à la 38ème journée
 	var ctx = document.getElementById("points_equipe_38");
@@ -298,73 +335,39 @@ $(document).ready(function() {
 
 	$( ".dropdown" ).change(function() {
 
-		var e = document.getElementById("choose_team")
-		var selected = e.options[e.selectedIndex].value
-
-	// Evolution d'une équipe en nombre de points au cours des journées
-	var ctx2 = document.getElementById("points_par_journee");
-	var points_par_journee = new Chart(ctx2, {
-		type: 'line',
-		data: {
-			labels: nb_journee,
-			datasets: [{
-				label: 'points',
-				data: evol_equipe(selected, year2),
-				borderColor: 'rgba(255, 99, 132)',
-				fill: false
-			}]
-		},
-		options: {
-			title: {
-				display: true,
-				text: "Evolution d'une équipe en nombre de points au cours des journées de l'année 2016-17"
-			},
-			scales: {
-				yAxes: [{
-					ticks: {
-						min: 0,
-						max: 100,
-						beginAtZero:true
-					}
+		var id = document.getElementById("choose_team")
+		var selected = id.options[id.selectedIndex].value
+		// Evolution d'une équipe en position au cours des journées
+		var ctx2 = document.getElementById("points_par_journee");
+		var points_par_journee = new Chart(ctx2, {
+			type: 'line',
+			data: {
+				labels: nb_journee,
+				datasets: [{
+					label: 'position',
+					data: evolution_position(selected, classement(38, year2)),
+					borderColor: 'rgba(255, 99, 132)',
+					fill: false
 				}]
-			}
-		}
-	});
-
-	});
-
-	// Evolution d'une équipe en nombre de points au cours des journées
-	var ctx3 = document.getElementById("points_par_journee_bis");
-	var points_par_journee_bis = new Chart(ctx3, {
-		type: 'line',
-		data: {
-			labels: nb_journee,
-			datasets: [{
-				label: 'points',
-				data: evol_equipe("Angers", year2),
-				borderColor: 'rgba(255, 99, 132)',
-				fill: false
-			}]
-		},
-		options: {
-			title: {
-				display: true,
-				text: "Evolution d'une équipe en nombre de points au cours des journées de l'année 2016-17"
 			},
-			scales: {
-				yAxes: [{
-					ticks: {
-						min: 0,
-						max: 100,
-						beginAtZero:true
-					}
-				}]
+			options: {
+				title: {
+					display: true,
+					text: "Evolution d'une équipe en nombre de points au cours des journées de l'année 2016-17"
+				},
+				scales: {
+					yAxes: [{
+						ticks: {
+							min: 1,
+							max: 20,
+							reverse:true
+						}
+						//[20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
+					}]
+				}
 			}
-		}
+		});
 	});
 
-	$("option[name='invisible']").click(function(){
-		$('#points_par_journee_bis').css('display','none')
-	})
 
 });
