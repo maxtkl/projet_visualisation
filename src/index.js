@@ -1,6 +1,7 @@
 import $ from "jquery"
 import Plotly from 'plotly.js-dist';
 import Chart from "chart.js";
+import 'bootstrap';
 
 // récupère un objet et une journée et retourne un tableau avec les equipes
 // et leur nombre de points 
@@ -47,6 +48,7 @@ function point(journee_max, year_obj) {
 		i++
 	}
 	i = 0
+	result[0].sort()
 	return result
 }
 
@@ -200,8 +202,6 @@ function classement(journee, year_obj) {
 	return classement
 }
 
-
-
 $(document).ready(function() {
 	var year1 = require("../Data/2015_16.json")
 	var year2 = require("../Data/2016_17.json")
@@ -220,13 +220,14 @@ $(document).ready(function() {
 
 	var point_38 = point(38,year2)
 	var evolution_monaco = evol_equipe("Monaco", year2)
+
 	//var test = classement(year2)
 
 	console.log(classement(1,year2))
 
-
-	var ctx = document.getElementById("myChart");
-	var myChart = new Chart(ctx, {
+	// Histogramme pour le nombre de points des équipes à la 38ème journée
+	var ctx = document.getElementById("points_equipe_38");
+	var points_equipe_38 = new Chart(ctx, {
 		type: 'bar',
 		data: {
 			labels: point_38[0],
@@ -283,7 +284,7 @@ $(document).ready(function() {
 		options: {
 			title: {
 				display: true,
-				text: 'Points des équipes à la 38ème journée'
+				text: "Points des équipes à la 38ème journée de l'année 2016-17"
 			},
 			scales: {
 				yAxes: [{
@@ -294,45 +295,79 @@ $(document).ready(function() {
 			}
 		}
 	});
-	var ctx2 = document.getElementById("myChart2");
-	var myChart = new Chart(ctx2, {
-		type: 'bar',
+
+	$( ".dropdown" ).change(function() {
+
+		var e = document.getElementById("choose_team")
+		var selected = e.options[e.selectedIndex].value
+
+	// Evolution d'une équipe en nombre de points au cours des journées
+	var ctx2 = document.getElementById("points_par_journee");
+	var points_par_journee = new Chart(ctx2, {
+		type: 'line',
 		data: {
 			labels: nb_journee,
 			datasets: [{
 				label: 'points',
-				data: evolution_monaco,
-				backgroundColor: [
-					'rgba(255, 99, 132, 0.2)',
-					'rgba(54, 162, 235, 0.2)',
-					'rgba(255, 206, 86, 0.2)',
-					'rgba(75, 192, 192, 0.2)',
-					'rgba(153, 102, 255, 0.2)',
-					'rgba(255, 159, 64, 0.2)'
-				],
-				borderColor: [
-					'rgba(255,99,132,1)',
-					'rgba(54, 162, 235, 1)',
-					'rgba(255, 206, 86, 1)',
-					'rgba(75, 192, 192, 1)',
-					'rgba(153, 102, 255, 1)',
-					'rgba(255, 159, 64, 1)'
-				],
-				borderWidth: 1
+				data: evol_equipe(selected, year2),
+				borderColor: 'rgba(255, 99, 132)',
+				fill: false
 			}]
 		},
 		options: {
 			title: {
 				display: true,
-				text: 'Evolution de Monaco sur toutes les journées (nombre de points)'
+				text: "Evolution d'une équipe en nombre de points au cours des journées de l'année 2016-17"
 			},
 			scales: {
 				yAxes: [{
 					ticks: {
+						min: 0,
+						max: 100,
 						beginAtZero:true
 					}
 				}]
 			}
 		}
 	});
+
+		console.log(points_par_journee.data.datasets.data)
+		// points_par_journee.update()
+
+	});
+
+	// Evolution d'une équipe en nombre de points au cours des journées
+	var ctx3 = document.getElementById("points_par_journee_bis");
+	var points_par_journee_bis = new Chart(ctx3, {
+		type: 'line',
+		data: {
+			labels: nb_journee,
+			datasets: [{
+				label: 'points',
+				data: evol_equipe("Bastia", year2),
+				borderColor: 'rgba(255, 99, 132)',
+				fill: false
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: "Evolution d'une équipe en nombre de points au cours des journées de l'année 2016-17"
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						min: 0,
+						max: 100,
+						beginAtZero:true
+					}
+				}]
+			}
+		}
+	});
+
+	$("option[name='invisible']").click(function(){
+		$('#points_par_journee_bis').css('display','none')
+	})
+
 });
