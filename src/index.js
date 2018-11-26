@@ -148,31 +148,39 @@ function classement(journee, year_obj) {
 			// on boucle sur les matchs de chaque date
 			for (var j = 0; j < year_obj[journee][i].match.length; j++) {
 				if (cpt == 1) {
-					// on instancie les points des equipes après la première journée (indice 0 dans le tableau)
+					// si l'equipe à domicile gagne
 					if (year_obj[journee][i].match[j].but_dom > year_obj[journee][i].match[j].but_ext) {
+						// on instancie les points des equipes après la première journée (indice 0 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = 3
+						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = 0
+						// on instancie les victoires, nuls et défaites (respectivement indice 4,5 et 6 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][4] = 1
 						obj[year_obj[journee][i].match[j].domicile][cpt][5] = 0
 						obj[year_obj[journee][i].match[j].domicile][cpt][6] = 0
-						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = 0
 						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = 0
 						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = 0
 						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = 1
+					// si l'equipe à l'exterieur gagne
 					} else if (year_obj[journee][i].match[j].but_dom < year_obj[journee][i].match[j].but_ext) {
-						obj[year_obj[journee][i].match[j].domicile][cpt][0] = 0
+						// on instancie les points des equipes après la première journée (indice 0 dans le tableau)
+						obj[year_obj[journee][i].match[j].domicile][cpt][0] = 0						
+						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = 3
+						// on instancie les victoires, nuls et défaites (respectivement indice 4,5 et 6 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][4] = 0
 						obj[year_obj[journee][i].match[j].domicile][cpt][5] = 0
 						obj[year_obj[journee][i].match[j].domicile][cpt][6] = 1
-						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = 3
 						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = 1
 						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = 0
 						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = 0
+					// si il y a match nul
 					} else {
+						// on instancie les points des equipes après la première journée (indice 0 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = 1
+						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = 1
+						// on instancie les victoires, nuls et défaites (respectivement indice 4,5 et 6 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][4] = 0
 						obj[year_obj[journee][i].match[j].domicile][cpt][5] = 1
 						obj[year_obj[journee][i].match[j].domicile][cpt][6] = 0
-						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = 1
 						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = 0
 						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = 1
 						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = 0
@@ -191,28 +199,36 @@ function classement(journee, year_obj) {
 					obj[year_obj[journee][i].match[j].exterieur][cpt][1] = obj[year_obj[journee][i].match[j].exterieur][cpt][2] - obj[year_obj[journee][i].match[j].exterieur][cpt][3]
 					
 				} else {
-					// on incrémente les points des equipes (indice 0 dans le tableau)
+					// si l'equipe à domicile gagne
 					if (year_obj[journee][i].match[j].but_dom > year_obj[journee][i].match[j].but_ext) {
+						// on incrémente les points des equipes (indice 0 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = obj[year_obj[journee][i].match[j].domicile][cpt-1][0] + 3
+						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][0]
+						// on incremente les victoires, nuls et défaites (respectivement indice 4,5 et 6 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][4] = obj[year_obj[journee][i].match[j].domicile][cpt-1][4] + 1
 						obj[year_obj[journee][i].match[j].domicile][cpt][5] = obj[year_obj[journee][i].match[j].domicile][cpt-1][5]
 						obj[year_obj[journee][i].match[j].domicile][cpt][6] = obj[year_obj[journee][i].match[j].domicile][cpt-1][6]
-						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][0]
 						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][4]
 						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][5]
 						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][6] + 1
+					// si l'equipe à domicile gagne
 					} else if (year_obj[journee][i].match[j].but_dom < year_obj[journee][i].match[j].but_ext) {
+						// on incrémente les points des equipes (indice 0 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = obj[year_obj[journee][i].match[j].domicile][cpt-1][0]
+						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][0] + 3
+						// on incremente les victoires, nuls et défaites (respectivement indice 4,5 et 6 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][4] = obj[year_obj[journee][i].match[j].domicile][cpt-1][4]
 						obj[year_obj[journee][i].match[j].domicile][cpt][5] = obj[year_obj[journee][i].match[j].domicile][cpt-1][5]
 						obj[year_obj[journee][i].match[j].domicile][cpt][6] = obj[year_obj[journee][i].match[j].domicile][cpt-1][6] + 1
-						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][0] + 3
 						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][4] + 1
 						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][5]
 						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][6]
+					// si il y a match nul
 					} else {
+						// on incrémente les points des equipes (indice 0 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = obj[year_obj[journee][i].match[j].domicile][cpt-1][0] + 1
 						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][0] + 1
+						// on incremente les victoires, nuls et défaites (respectivement indice 4,5 et 6 dans le tableau)
 						obj[year_obj[journee][i].match[j].domicile][cpt][4] = obj[year_obj[journee][i].match[j].domicile][cpt-1][4]
 						obj[year_obj[journee][i].match[j].domicile][cpt][5] = obj[year_obj[journee][i].match[j].domicile][cpt-1][5] + 1
 						obj[year_obj[journee][i].match[j].domicile][cpt][6] = obj[year_obj[journee][i].match[j].domicile][cpt-1][6]

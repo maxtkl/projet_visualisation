@@ -19,7 +19,7 @@
           "but_dom": "0",
           "but_ext": "0",
           "domicile": "Troyes",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(0-0)"
         },
         {
@@ -127,7 +127,7 @@
           "but_dom": "2",
           "but_ext": "0",
           "domicile": "Saint-Etienne",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(2-0)"
         },
         {
@@ -402,7 +402,7 @@
           "but_dom": "1",
           "but_ext": "2",
           "domicile": "Reims",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(1-2)"
         }
       ]
@@ -501,7 +501,7 @@
           "but_dom": "1",
           "but_ext": "2",
           "domicile": "Bastia",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(1-2)"
         },
         {
@@ -663,7 +663,7 @@
           "but_dom": "0",
           "but_ext": "2",
           "domicile": "Montpellier",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(0-2)"
         },
         {
@@ -856,7 +856,7 @@
           "but_dom": "1",
           "but_ext": "1",
           "domicile": "Marseille",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(1-1)"
         },
         {
@@ -1037,7 +1037,7 @@
           "but_dom": "2",
           "but_ext": "0",
           "domicile": "Paris-SG",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(2-0)"
         }
       ]
@@ -1077,7 +1077,7 @@
           "but_dom": "2",
           "but_ext": "2",
           "domicile": "Monaco",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(2-2)"
         },
         {
@@ -1225,7 +1225,7 @@
           "but_dom": "1",
           "but_ext": "0",
           "domicile": "Rennes",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(1-0)"
         }
       ]
@@ -1425,7 +1425,7 @@
           "but_dom": "3",
           "but_ext": "1",
           "domicile": "Nantes",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(3-1)"
         },
         {
@@ -1695,7 +1695,7 @@
           "but_dom": "1",
           "but_ext": "1",
           "domicile": "Toulouse",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(1-1)"
         }
       ]
@@ -1865,7 +1865,7 @@
           "but_dom": "1",
           "but_ext": "1",
           "domicile": "Bordeaux",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(1-1)"
         },
         {
@@ -2166,7 +2166,7 @@
           "but_dom": "3",
           "but_ext": "0",
           "domicile": "Nice",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(3-0)"
         },
         {
@@ -2293,7 +2293,7 @@
           "but_dom": "0",
           "but_ext": "0",
           "domicile": "Angers",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(0-0)"
         },
         {
@@ -2606,7 +2606,7 @@
           "but_dom": "2",
           "but_ext": "1",
           "domicile": "Lyon",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(2-1)"
         }
       ]
@@ -2744,7 +2744,7 @@
           "but_dom": "1",
           "but_ext": "0",
           "domicile": "Lorient",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(1-0)"
         },
         {
@@ -2819,7 +2819,7 @@
           "but_dom": "1",
           "but_ext": "0",
           "domicile": "Lille",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(1-0)"
         },
         {
@@ -2993,7 +2993,7 @@
           "but_dom": "2",
           "but_ext": "1",
           "domicile": "Guingamp",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(2-1)"
         },
         {
@@ -3158,7 +3158,7 @@
           "but_dom": "2",
           "but_ext": "0",
           "domicile": "Caen",
-          "exterieur": "G",
+          "exterieur": "Ajaccio",
           "victoire": "(2-0)"
         },
         {
