@@ -10,25 +10,30 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <div class="page-header">Evolution au classement des équipes de ligue 1 ( meme marseille )</div>
         <div class="row">
-            <div class="col-md-6">
-                <select class="dropdown" id="choose_year">
-                    <option value="2015_16" selected="selected">2015 - 2016</option>
-                    <option value="2016_17">2016 - 2017</option>
-                    <option value="2017_18">2017 - 2018</option>
-                </select>
-                <select class="dropdown" id="choose_team"></select>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-9">
                <canvas id="points_equipe_38"></canvas>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3" style="margin-top: 150px; padding-left: 50px">
+                <div class="row">
+                     <h2>Résultats Ligue 1</h2>
+                 </div>
+                <div class="row" style="margin-top: 50px; padding-left: 50px">
+                    <select class="dropdown" id="choose_year">
+                        <option value="2015_16" selected="selected">2015 - 2016</option>
+                        <option value="2016_17">2016 - 2017</option>
+                        <option value="2017_18">2017 - 2018</option>
+                    </select>
+                    <select class="dropdown" id="choose_team">
+                        <option value="Ajaccio" selected="selected">Ajaccio</option>
+                    </select>
+                </div>        
+            </div>
+            <div class="col-md-5 col-md-offset-1">
                 <canvas id="points_par_journee"></canvas>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-offset-1"></div>
+            <div class="col-md-5">
                 <canvas id="matchs_repartition"></canvas>
             </div>
         </div>

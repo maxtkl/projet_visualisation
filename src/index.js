@@ -296,6 +296,22 @@ function classement(journee, year_obj) {
 	return classement
 }
 
+function addData(chart, label, data) {
+    chart.data.labels.push(label);
+    chart.data.datasets.forEach((dataset) => {
+        dataset.data.push(data);
+    });
+    chart.update();
+}
+
+function removeData(chart) {
+	chart.data.labels.pop();
+	chart.data.datasets.forEach((dataset) => {
+	dataset.data.pop();
+	});
+	chart.update();
+}
+
 $(document).ready(function() {
 	var year1 = require("../Data/2015_16.json")
 	var year2 = require("../Data/2016_17.json")
@@ -321,93 +337,79 @@ $(document).ready(function() {
 		}
 	})
 
-	// petit bouton
-	$( ".dropdown" ).change(function() {
-		var year_selected
-		if ($('#choose_year').find(":selected").text() == '2015 - 2016') {
-			year_selected = year1
-		} else if ($('#choose_year').find(":selected").text() == '2016 - 2017') {
-			year_selected = year2
-		} else {
-			year_selected = year3
-		}
-		var id_team = document.getElementById("choose_team")
-		var selected_team = id_team.options[id_team.selectedIndex].value
-
-
-		// Histogramme pour le nombre de points des équipes à la 38ème journée
-		var point_38 = point(38,year_selected)
-		var ctx = document.getElementById("points_equipe_38");
-		var points_equipe_38 = new Chart(ctx, {
-			type: 'bar',
-			data: {
-				labels: point_38[0],
-				datasets: [{
-					label: "points",
-					data: point_38[1],
-					backgroundColor: [
-						'rgba(255, 99, 132, 0.2)',
-						'rgba(54, 162, 235, 0.2)',
-						'rgba(255, 206, 86, 0.2)',
-						'rgba(75, 192, 192, 0.2)',
-						'rgba(153, 102, 255, 0.2)',
-						'rgba(255, 159, 64, 0.2)',
-						'rgba(255, 99, 132, 0.2)',
-						'rgba(54, 162, 235, 0.2)',
-						'rgba(255, 206, 86, 0.2)',
-						'rgba(75, 192, 192, 0.2)',
-						'rgba(153, 102, 255, 0.2)',
-						'rgba(255, 159, 64, 0.2)',
-						'rgba(255, 99, 132, 0.2)',
-						'rgba(54, 162, 235, 0.2)',
-						'rgba(255, 206, 86, 0.2)',
-						'rgba(75, 192, 192, 0.2)',
-						'rgba(153, 102, 255, 0.2)',
-						'rgba(255, 159, 64, 0.2)',
-						'rgba(255, 99, 132, 0.2)',
-						'rgba(54, 162, 235, 0.2)'
-					],
-					borderColor: [
-						'rgba(255,99,132,1)',
-						'rgba(54, 162, 235, 1)',
-						'rgba(255, 206, 86, 1)',
-						'rgba(75, 192, 192, 1)',
-						'rgba(153, 102, 255, 1)',
-						'rgba(255, 159, 64, 1)',
-						'rgba(255,99,132,1)',
-						'rgba(54, 162, 235, 1)',
-						'rgba(255, 206, 86, 1)',
-						'rgba(75, 192, 192, 1)',
-						'rgba(153, 102, 255, 1)',
-						'rgba(255, 159, 64, 1)',
-						'rgba(255,99,132,1)',
-						'rgba(54, 162, 235, 1)',
-						'rgba(255, 206, 86, 1)',
-						'rgba(75, 192, 192, 1)',
-						'rgba(153, 102, 255, 1)',
-						'rgba(255, 159, 64, 1)',
-						'rgba(255,99,132,1)',
-						'rgba(54, 162, 235, 1)'
-					],
-					borderWidth: 1
-				}]
+	// Histogramme pour le nombre de points des équipes à la 38ème journée
+	var point_38 = point(38,year1)
+	var ctx = document.getElementById("points_equipe_38");
+	var points_equipe_38 = new Chart(ctx, {
+		type: 'bar',
+		data: {
+			labels: point_38[0],
+			datasets: [{
+				label: "points",
+				data: point_38[1],
+				backgroundColor: [
+					'rgba(255, 99, 132, 0.2)',
+					'rgba(54, 162, 235, 0.2)',
+					'rgba(255, 206, 86, 0.2)',
+					'rgba(75, 192, 192, 0.2)',
+					'rgba(153, 102, 255, 0.2)',
+					'rgba(255, 159, 64, 0.2)',
+					'rgba(255, 99, 132, 0.2)',
+					'rgba(54, 162, 235, 0.2)',
+					'rgba(255, 206, 86, 0.2)',
+					'rgba(75, 192, 192, 0.2)',
+					'rgba(153, 102, 255, 0.2)',
+					'rgba(255, 159, 64, 0.2)',
+					'rgba(255, 99, 132, 0.2)',
+					'rgba(54, 162, 235, 0.2)',
+					'rgba(255, 206, 86, 0.2)',
+					'rgba(75, 192, 192, 0.2)',
+					'rgba(153, 102, 255, 0.2)',
+					'rgba(255, 159, 64, 0.2)',
+					'rgba(255, 99, 132, 0.2)',
+					'rgba(54, 162, 235, 0.2)'
+				],
+				borderColor: [
+					'rgba(255,99,132,1)',
+					'rgba(54, 162, 235, 1)',
+					'rgba(255, 206, 86, 1)',
+					'rgba(75, 192, 192, 1)',
+					'rgba(153, 102, 255, 1)',
+					'rgba(255, 159, 64, 1)',
+					'rgba(255,99,132,1)',
+					'rgba(54, 162, 235, 1)',
+					'rgba(255, 206, 86, 1)',
+					'rgba(75, 192, 192, 1)',
+					'rgba(153, 102, 255, 1)',
+					'rgba(255, 159, 64, 1)',
+					'rgba(255,99,132,1)',
+					'rgba(54, 162, 235, 1)',
+					'rgba(255, 206, 86, 1)',
+					'rgba(75, 192, 192, 1)',
+					'rgba(153, 102, 255, 1)',
+					'rgba(255, 159, 64, 1)',
+					'rgba(255,99,132,1)',
+					'rgba(54, 162, 235, 1)'
+				],
+				borderWidth: 1
+			}]
+		},
+		options: {
+			title: {
+				display: true,
+				text: "Points des équipes à la 38ème journée de l'année 2016-17"
 			},
-			options: {
-				title: {
-					display: true,
-					text: "Points des équipes à la 38ème journée de l'année 2016-17"
-				},
-				scales: {
-					yAxes: [{
-						ticks: {
-							beginAtZero:true
-						}
-					}]
-				}
+			scales: {
+				yAxes: [{
+					ticks: {
+						beginAtZero:true
+					}
+				}]
 			}
-		});
+		}
+	});
 
-		// Evolution d'une équipe en position au cours des journées
+	// Evolution d'une équipe en position au cours des journées
 		var ctx2 = document.getElementById("points_par_journee");
 		var points_par_journee = new Chart(ctx2, {
 			type: 'line',
@@ -415,7 +417,7 @@ $(document).ready(function() {
 				labels: nb_journee,
 				datasets: [{
 					label: 'position',
-					data: evolution_position(selected_team, classement(38, year_selected)),
+					data: evolution_position("Ajaccio", classement(38, year1)),
 					borderColor: 'rgba(255, 99, 132)',
 					fill: false
 				}]
@@ -443,7 +445,7 @@ $(document).ready(function() {
 			type: 'pie',
 			data: {
 				datasets: [{
-					data: get_matchs_repartition(selected_team, classement(38, year_selected)),
+					data: get_matchs_repartition("Ajaccio", classement(38, year1)),
 					backgroundColor: [
 						'rgba(54, 162, 235, 0.5)',
 						'rgba(255, 206, 86, 0.5)',
@@ -451,9 +453,9 @@ $(document).ready(function() {
 					]
 				}],
 				labels: [
-					'Gagnés',
-					'Nuls',
-					'Perdus'
+					'Victoire',
+					'Nul',
+					'Défaite'
 					]
 			},
 			options: {
@@ -465,6 +467,43 @@ $(document).ready(function() {
 			}
 		});
 
+	// petit bouton
+	$( ".dropdown" ).change(function() {
+		var nb_journee = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38]
+
+		for (var i = 0; i < 20; i++) {
+			removeData(points_equipe_38)
+		}
+		for (var i = 0; i < 38; i++) {
+			removeData(points_par_journee)
+		}
+			for (var i = 0; i < 3; i++) {
+			removeData(matchs_repartition)
+		}
+		
+
+		var year_selected
+		if ($('#choose_year').find(":selected").text() == '2015 - 2016') {
+			year_selected = year1
+		} else if ($('#choose_year').find(":selected").text() == '2016 - 2017') {
+			year_selected = year2
+		} else {
+			year_selected = year3
+		}
+
+		var id_team = document.getElementById("choose_team")
+		var selected_team = id_team.options[id_team.selectedIndex].value
+		
+		for (var i = 0; i < 20; i++) {
+			addData(points_equipe_38, point(38,year_selected)[0][i], point(38,year_selected)[1][i])
+		}
+		for (var i = 0; i < 38; i++) {
+			addData(points_par_journee, nb_journee[i], evolution_position(selected_team, classement(38, year_selected))[i])
+		}
+		for (var i = 0; i < 3; i++) {
+			addData(matchs_repartition, ["Victoire", "Nul", "Defaite"][i], get_matchs_repartition(selected_team, classement(38, year_selected))[i])
+		}
+		
 	});
 
 });
