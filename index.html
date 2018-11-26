@@ -10,9 +10,39 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <div id="title"></div>
-    <!-- Contenu de la page respectant la syntaxe XML. -->
-    <canvas id="myChart" width="300px" height="300px"></canvas>
-    <canvas id="myChart2" width="300px" height="300px"></canvas>
-  </body>
-</html>
+     <div id="title"></div>
+     <!-- Contenu de la page respectant la syntaxe XML. -->
+     <div class="col-md-4">
+       <canvas id="points_equipe_38" width="80px" height="80px"></canvas>
+     <div class="col-md-4" style="width=10%; height=10%">
+       <canvas id="points_equipe_38"></canvas>
+     </div>
+
+     <br/>
+     <div class="col-md-4" style="width=10%; height=10%">
+     <select class="dropdown" id="choose_team">
+         <option name="invisible" value="Angers" selected="selected">Angers</option>
+         <option name="invisible" value="Bastia">Bastia</option>
+         <option name="invisible" value="Lille">Lille</option>
+         <option name="invisible" value="Lorient">Lorient</option>
+         <option name="invisible" value="Lyon">Lyon</option>
+         <option name="invisible" value="Marseille ">Marseille</option>
+         <option name="invisible" value="Marseille">Marseille</option>
+         <option name="invisible" value="Metz">Metz</option>
+         <option name="invisible" value="Monaco">Monaco</option>
+         <option name="invisible" value="Montpellier">Montpellier</option>
+         <option name="invisible" value="Saint-Etienne">Saint-Etienne</option>
+         <option name="invisible" value="Toulouse">Toulouse</option>
+     </select>
+     <canvas id="points_par_journee" width="80px" height="80px"></canvas>
+     <canvas id="points_par_journee_bis" width="80px" height="80px"></canvas>
+     <select class="dropdown" id="choose_year">
+       <option name="invisible" value="2015_16" selected="selected">2015-2016</option>
+       <option name="invisible" value="2016_17">2016-2017</option>
+       <option name="invisible" value="2017_18">2017-2018</option>
+     </select>
+         <canvas id="points_par_journee"></canvas>
+         <canvas id="points_par_journee_bis"></canvas>
+     </div>
+   </body>
+ </html> 
