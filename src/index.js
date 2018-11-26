@@ -98,7 +98,7 @@ function evolution_position(equipe, tableau){
 	for (var i = 0; i < tableau.length; i++) {
 		for (var j = 0; j < tableau[i].length; j++) {
 			if (equipe == tableau[i][j][0]) {
-				position.push(tableau[i][j][5])
+				position.push(tableau[i][j][8])
 			}
 		}
 		
@@ -151,13 +151,31 @@ function classement(journee, year_obj) {
 					// on instancie les points des equipes après la première journée (indice 0 dans le tableau)
 					if (year_obj[journee][i].match[j].but_dom > year_obj[journee][i].match[j].but_ext) {
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = 3
+						obj[year_obj[journee][i].match[j].domicile][cpt][4] = 1
+						obj[year_obj[journee][i].match[j].domicile][cpt][5] = 0
+						obj[year_obj[journee][i].match[j].domicile][cpt][6] = 0
 						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = 0
+						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = 0
+						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = 0
+						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = 1
 					} else if (year_obj[journee][i].match[j].but_dom < year_obj[journee][i].match[j].but_ext) {
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = 0
+						obj[year_obj[journee][i].match[j].domicile][cpt][4] = 0
+						obj[year_obj[journee][i].match[j].domicile][cpt][5] = 0
+						obj[year_obj[journee][i].match[j].domicile][cpt][6] = 1
 						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = 3
+						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = 1
+						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = 0
+						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = 0
 					} else {
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = 1
+						obj[year_obj[journee][i].match[j].domicile][cpt][4] = 0
+						obj[year_obj[journee][i].match[j].domicile][cpt][5] = 1
+						obj[year_obj[journee][i].match[j].domicile][cpt][6] = 0
 						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = 1
+						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = 0
+						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = 1
+						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = 0
 					}
 					
 					// on instancie les buts marqués après la première journée (indice 2 dans le tableau)
@@ -173,16 +191,34 @@ function classement(journee, year_obj) {
 					obj[year_obj[journee][i].match[j].exterieur][cpt][1] = obj[year_obj[journee][i].match[j].exterieur][cpt][2] - obj[year_obj[journee][i].match[j].exterieur][cpt][3]
 					
 				} else {
-					// on inccrémente les points des equipes (indice 0 dans le tableau)
+					// on incrémente les points des equipes (indice 0 dans le tableau)
 					if (year_obj[journee][i].match[j].but_dom > year_obj[journee][i].match[j].but_ext) {
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = obj[year_obj[journee][i].match[j].domicile][cpt-1][0] + 3
+						obj[year_obj[journee][i].match[j].domicile][cpt][4] = obj[year_obj[journee][i].match[j].domicile][cpt-1][4] + 1
+						obj[year_obj[journee][i].match[j].domicile][cpt][5] = obj[year_obj[journee][i].match[j].domicile][cpt-1][5]
+						obj[year_obj[journee][i].match[j].domicile][cpt][6] = obj[year_obj[journee][i].match[j].domicile][cpt-1][6]
 						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][0]
+						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][4]
+						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][5]
+						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][6] + 1
 					} else if (year_obj[journee][i].match[j].but_dom < year_obj[journee][i].match[j].but_ext) {
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = obj[year_obj[journee][i].match[j].domicile][cpt-1][0]
+						obj[year_obj[journee][i].match[j].domicile][cpt][4] = obj[year_obj[journee][i].match[j].domicile][cpt-1][4]
+						obj[year_obj[journee][i].match[j].domicile][cpt][5] = obj[year_obj[journee][i].match[j].domicile][cpt-1][5]
+						obj[year_obj[journee][i].match[j].domicile][cpt][6] = obj[year_obj[journee][i].match[j].domicile][cpt-1][6] + 1
 						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][0] + 3
+						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][4] + 1
+						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][5]
+						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][6]
 					} else {
 						obj[year_obj[journee][i].match[j].domicile][cpt][0] = obj[year_obj[journee][i].match[j].domicile][cpt-1][0] + 1
 						obj[year_obj[journee][i].match[j].exterieur][cpt][0] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][0] + 1
+						obj[year_obj[journee][i].match[j].domicile][cpt][4] = obj[year_obj[journee][i].match[j].domicile][cpt-1][4]
+						obj[year_obj[journee][i].match[j].domicile][cpt][5] = obj[year_obj[journee][i].match[j].domicile][cpt-1][5] + 1
+						obj[year_obj[journee][i].match[j].domicile][cpt][6] = obj[year_obj[journee][i].match[j].domicile][cpt-1][6]
+						obj[year_obj[journee][i].match[j].exterieur][cpt][4] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][4]
+						obj[year_obj[journee][i].match[j].exterieur][cpt][5] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][5] + 1
+						obj[year_obj[journee][i].match[j].exterieur][cpt][6] = obj[year_obj[journee][i].match[j].exterieur][cpt-1][6]
 					}
 					
 					// on incrémente les buts marqués (indice 2 dans le tableau)
@@ -208,7 +244,7 @@ function classement(journee, year_obj) {
 	for (var s = 1; s <= 38; s++) {
 		var temp = []
 		for (var team in obj) {
-			temp.push([team, obj[team][s][0],obj[team][s][1],obj[team][s][2],obj[team][s][3]])
+			temp.push([team, obj[team][s][0],obj[team][s][1],obj[team][s][2],obj[team][s][3],obj[team][s][4],obj[team][s][5],obj[team][s][6]])
 		}
 		// on trie les tableau de chaque journée pour les afficher dans la position du classement
 		temp.sort(function (a, b) {
@@ -223,7 +259,7 @@ function classement(journee, year_obj) {
 			}
 		})
 		for (var t = 0; t < temp.length; t++) {
-			temp[t] = [temp[t][0],temp[t][1],temp[t][2],temp[t][3],temp[t][4],(t+1)]
+			temp[t] = [temp[t][0],temp[t][1],temp[t][2],temp[t][3],temp[t][4],temp[t][5],temp[t][6],temp[t][7],(t+1)]
 		}
 		classement.push(temp)
 	}
@@ -249,17 +285,6 @@ $(document).ready(function() {
 	var point_38 = point(38,year2)
 	var evolution_monaco = evol_equipe("Monaco", year2)
 	var position_monaco = evolution_position("Monaco", classement(38, year2))
-
-	console.log("année1:")
-	console.log(get_team_year(year1))
-	console.log("année2:")
-	console.log(get_team_year(year2))
-	console.log("année3:")
-	console.log(get_team_year(year3))
-
-	console.log("autre")
-	console.log(position_monaco)
-	console.log(classement(38, year2))
 
 
 	// Histogramme pour le nombre de points des équipes à la 38ème journée
@@ -333,10 +358,39 @@ $(document).ready(function() {
 		}
 	});
 
-	$( ".dropdown" ).change(function() {
+	console.log(classement(38,year2))
 
-		var id = document.getElementById("choose_team")
-		var selected = id.options[id.selectedIndex].value
+	// on instancie le bouton avec les equipes de la bonne année
+	$("#choose_year").change(function(){
+		$("#choose_team").empty();
+		if ($('#choose_year').find(":selected").text() == '2015 - 2016') {
+			var options_team = get_team_year(year1)
+		} else if ($('#choose_year').find(":selected").text() == '2016 - 2017') {
+			var options_team = get_team_year(year2)
+		} else {
+			var options_team = get_team_year(year3)
+		}
+		for (var i = 0; i < options_team.length; i++) {
+			var opt = options_team[i]
+			var el = document.createElement("option");
+			el.textContent = opt
+			el.value = opt
+			document.getElementById('choose_team').appendChild(el)
+		}
+	})
+
+	// petit bouton
+	$( ".dropdown" ).change(function() {
+		var year_selected
+		if ($('#choose_year').find(":selected").text() == '2015 - 2016') {
+			year_selected = year1
+		} else if ($('#choose_year').find(":selected").text() == '2016 - 2017') {
+			year_selected = year2
+		} else {
+			year_selected = year3
+		}
+		var id_team = document.getElementById("choose_team")
+		var selected_team = id_team.options[id_team.selectedIndex].value
 		// Evolution d'une équipe en position au cours des journées
 		var ctx2 = document.getElementById("points_par_journee");
 		var points_par_journee = new Chart(ctx2, {
@@ -345,7 +399,7 @@ $(document).ready(function() {
 				labels: nb_journee,
 				datasets: [{
 					label: 'position',
-					data: evolution_position(selected, classement(38, year2)),
+					data: evolution_position(selected_team, classement(38, year_selected)),
 					borderColor: 'rgba(255, 99, 132)',
 					fill: false
 				}]
@@ -362,7 +416,6 @@ $(document).ready(function() {
 							max: 20,
 							reverse:true
 						}
-						//[20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
 					}]
 				}
 			}
