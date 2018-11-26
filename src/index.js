@@ -119,6 +119,21 @@ function get_team_year(year_obj){
 	return team
 }
 
+function get_matchs_repartition(equipe, tableau){
+	var matchs = []
+
+	for (var i = 0; i < tableau.length; i++) {
+		for (var j = 0; j < tableau[i].length; j++) {
+			if (equipe == tableau[i][j][0]) {
+				matchs[0] = tableau[i][j][4]
+				matchs[1] = tableau[i][j][5]
+				matchs[2] = tableau[i][j][6]
+			}
+		}
+	}
+	return matchs
+}
+
 // retourne un tableau avec la position d'une equipe a chaque journée
 function classement(journee, year_obj) {
 	var cpt = 1
@@ -374,8 +389,6 @@ $(document).ready(function() {
 		}
 	});
 
-	console.log(classement(38,year2))
-
 	// on instancie le bouton avec les equipes de la bonne année
 	$("#choose_year").change(function(){
 		$("#choose_team").empty();
@@ -407,6 +420,7 @@ $(document).ready(function() {
 		}
 		var id_team = document.getElementById("choose_team")
 		var selected_team = id_team.options[id_team.selectedIndex].value
+
 		// Evolution d'une équipe en position au cours des journées
 		var ctx2 = document.getElementById("points_par_journee");
 		var points_par_journee = new Chart(ctx2, {
@@ -436,7 +450,35 @@ $(document).ready(function() {
 				}
 			}
 		});
-	});
 
+		// Pie chart de matchs gagnés, nuls et perdus
+		var ctx3 = document.getElementById("matchs_repartition")
+		var matchs_repartition = new Chart(ctx3,{
+			type: 'pie',
+			data: {
+				datasets: [{
+					data: get_matchs_repartition(selected_team, classement(38, year_selected)),
+					backgroundColor: [
+						'rgba(54, 162, 235, 0.5)',
+						'rgba(255, 206, 86, 0.5)',
+						'rgba(255, 99, 132, 0.5)'
+					]
+				}],
+				labels: [
+					'Gagnés',
+					'Nuls',
+					'Perdus'
+					]
+			},
+			options: {
+				responsive: true,
+				title: {
+					display: true,
+					text: "Repartition des matchs gagnés/perdu/nuls à la fin de la saison"
+				}
+			}
+		});
+
+	});
 
 });
