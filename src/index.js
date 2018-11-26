@@ -52,7 +52,7 @@ function point(journee_max, year_obj) {
 	return result
 }
 
-// On donne une équipe en parametre et retourne le nombre de points à chaque journée
+// retourne le nombre de points à chaque journée
 function evol_equipe(equipe, year_obj){
 	var point_equipe = []
 	var point = 0
@@ -92,6 +92,7 @@ function evol_equipe(equipe, year_obj){
 	return point_equipe
 }
 
+// retourne un tableau avec les position de l'equipe en parametre à chaque journée
 function evolution_position(equipe, tableau){
 	var position = []
 
@@ -106,6 +107,7 @@ function evolution_position(equipe, tableau){
 	return position
 }
 
+// retourne le tableau des equipes ayant joué dans le championnat
 function get_team_year(year_obj){
 	var team = []
 
@@ -119,6 +121,7 @@ function get_team_year(year_obj){
 	return team
 }
 
+// retourne la répartition des résultats d'une equipe sur une année
 function get_matchs_repartition(equipe, tableau){
 	var matchs = []
 
@@ -303,20 +306,13 @@ $(document).ready(function() {
 	var year3 = require("../Data/2017_18.json")
 	var nb_journee = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38]
 
-	// tableau des equipes de la première année
-	var equipes = []
-	for (var i = 0; i < year2.journee_01.length; i++) {
-		for (var j = 0; j < year2.journee_01[i].match.length; j++) {
-			equipes.push(year2.journee_01[i].match[j].domicile)
-			equipes.push(year2.journee_01[i].match[j].exterieur)
-		}
-	}
-	equipes.sort()
 
 	var point_38 = point(38,year2)
 	var evolution_monaco = evol_equipe("Monaco", year2)
 	var position_monaco = evolution_position("Monaco", classement(38, year2))
 
+	console.log(year1)
+	console.log(classement(38,year1))
 
 	// Histogramme pour le nombre de points des équipes à la 38ème journée
 	var ctx = document.getElementById("points_equipe_38");
