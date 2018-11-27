@@ -312,11 +312,19 @@ function removeData(chart) {
 	chart.update();
 }
 
+function color_team() {
+	var color = []
+	color[0] = "rgba(63,191,63)"
+	color[1] = "rgba(63,63,191)"
+	return color
+}
+
 $(document).ready(function() {
 	var year1 = require("../Data/2015_16.json")
 	var year2 = require("../Data/2016_17.json")
 	var year3 = require("../Data/2017_18.json")
 	var nb_journee = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38]
+
 
 	// on instancie le bouton avec les equipes de la bonne année
 	$("#choose_year").change(function(){
@@ -416,9 +424,14 @@ $(document).ready(function() {
 			data: {
 				labels: nb_journee,
 				datasets: [{
-					label: 'position',
+					label: 'position1',
 					data: evolution_position("Ajaccio", classement(38, year1)),
-					borderColor: 'rgba(255, 99, 132)',
+					borderColor: color_team()[0],
+					fill: false
+				}, {
+					label: 'position2',
+					data: evolution_position("Monaco", classement(38, year1)),
+					borderColor: color_team()[1],
 					fill: false
 				}]
 			},
