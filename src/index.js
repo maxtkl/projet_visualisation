@@ -122,12 +122,12 @@ function get_team_year(year_obj){
 }
 
 // retourne la répartition des résultats d'une equipe sur une année
-function get_matchs_repartition(equipe, tableau){
+function get_matchs_repartition(journee, equipe, tableau){
 	var matchs = []
 
 	for (var i = 0; i < tableau[0].length; i++) {
-		if (equipe == tableau[37][i][0]) {
-			matchs.push(tableau[37][i][5],tableau[37][i][6],tableau[37][i][7])
+		if (equipe == tableau[journee-1][i][0]) {
+			matchs.push(tableau[journee-1][i][5],tableau[journee-1][i][6],tableau[journee-1][i][7])
 		}
 	}
 	return matchs
@@ -296,6 +296,7 @@ function classement(journee, year_obj) {
 	return classement
 }
 
+// ajoute les données au tableau sélectionné
 function addData(chart, label, data) {
     chart.data.labels.push(label);
     chart.data.datasets.forEach((dataset) => {
@@ -304,6 +305,7 @@ function addData(chart, label, data) {
     chart.update();
 }
 
+// retire les données au tableau sélectionné
 function removeData(chart) {
 	chart.data.labels.pop();
 	chart.data.datasets.forEach((dataset) => {
@@ -311,6 +313,7 @@ function removeData(chart) {
 	});
 	chart.update();
 }
+
 
 function color_team() {
 	var color = []
@@ -325,6 +328,34 @@ $(document).ready(function() {
 	var year3 = require("../Data/2017_18.json")
 	var nb_journee = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38]
 
+	// on instancie les options html pour la journée
+	for (var i = 38; i > 0; i--) {
+		var el = document.createElement("option");
+		if (i > 1) {
+			el.textContent = i + "ème"
+		} else {
+			el.textContent = i + "ère"
+		}
+		el.value = i
+		document.getElementById('choose_day').appendChild(el)
+	}
+
+	// on instancie les options html pour la journée
+	var options_team = get_team_year(year1)
+	for (var i = 0; i < options_team.length; i++) {
+		var opt = options_team[i]
+		var el = document.createElement("option");
+		el.textContent = opt
+		el.value = opt
+		document.getElementById('choose_team').appendChild(el)
+	}
+	for (var i = 0; i < options_team.length; i++) {
+		var opt = options_team[i]
+		var el = document.createElement("option");
+		el.textContent = opt
+		el.value = opt
+		document.getElementById('choose_team2').appendChild(el)
+	}
 
 	// on instancie le bouton avec les equipes de la bonne année
 	$("#choose_year").change(function(){
@@ -342,19 +373,21 @@ $(document).ready(function() {
 			el.textContent = opt
 			el.value = opt
 			document.getElementById('choose_team').appendChild(el)
+			document.getElementById('choose_team2').appendChild(el)
 		}
 	})
 
 	// Histogramme pour le nombre de points des équipes à la 38ème journée
-	var point_38 = point(38,year1)
-	var ctx = document.getElementById("points_equipe_38");
-	var points_equipe_38 = new Chart(ctx, {
+	var choosen_day = $('#choose_day').find(":selected").val()
+	var point_day = point(choosen_day,year1)
+	var ctx = document.getElementById("points_equipe");
+	var points_equipe = new Chart(ctx, {
 		type: 'bar',
 		data: {
-			labels: point_38[0],
+			labels: point_day[0],
 			datasets: [{
 				label: "points",
-				data: point_38[1],
+				data: point_day[1],
 				backgroundColor: [
 					'rgba(255, 99, 132, 0.2)',
 					'rgba(54, 162, 235, 0.2)',
@@ -458,7 +491,7 @@ $(document).ready(function() {
 			type: 'pie',
 			data: {
 				datasets: [{
-					data: get_matchs_repartition("Ajaccio", classement(38, year1)),
+					data: get_matchs_repartition(choosen_day,"Ajaccio", classement(38, year1)),
 					backgroundColor: [
 						'rgba(54, 162, 235, 0.5)',
 						'rgba(255, 206, 86, 0.5)',
@@ -481,11 +514,11 @@ $(document).ready(function() {
 		});
 
 	// petit bouton
-	$( ".dropdown" ).change(function() {
+	$(".dropdown").change(function() {
 		var nb_journee = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38]
 
 		for (var i = 0; i < 20; i++) {
-			removeData(points_equipe_38)
+			removeData(points_equipe)
 		}
 		for (var i = 0; i < 38; i++) {
 			removeData(points_par_journee)
@@ -503,18 +536,19 @@ $(document).ready(function() {
 		} else {
 			year_selected = year3
 		}
+		var choosen_day = $('#choose_day').find(":selected").val()
 
 		var id_team = document.getElementById("choose_team")
 		var selected_team = id_team.options[id_team.selectedIndex].value
 		
 		for (var i = 0; i < 20; i++) {
-			addData(points_equipe_38, point(38,year_selected)[0][i], point(38,year_selected)[1][i])
+			addData(points_equipe, point(38,year_selected)[0][i], point(choosen_day,year_selected)[1][i])
 		}
-		for (var i = 0; i < 38; i++) {
-			addData(points_par_journee, nb_journee[i], evolution_position(selected_team, classement(38, year_selected))[i])
+		for (var i = 0; i < choosen_day; i++) {
+			addData(points_par_journee, nb_journee[i], evolution_position(selected_team, classement(choosen_day, year_selected))[i])
 		}
 		for (var i = 0; i < 3; i++) {
-			addData(matchs_repartition, ["Victoire", "Nul", "Defaite"][i], get_matchs_repartition(selected_team, classement(38, year_selected))[i])
+			addData(matchs_repartition, ["Victoire", "Nul", "Defaite"][i], get_matchs_repartition(choosen_day, selected_team, classement(choosen_day, year_selected))[i])
 		}
 		
 	});

@@ -12,39 +12,61 @@
     <body>
         <div class="row">
             <div class="col-md-9">
-               <canvas id="points_equipe_38"></canvas>
+               <canvas id="points_equipe"></canvas>
             </div>
+            
             <div class="col-md-3" style="margin-top: 150px; padding-left: 50px">
-                <div class="row">
+                <div class="row form-group">
                      <h2>Résultats Ligue 1</h2>
                  </div>
-                <div class="row" style="margin-top: 50px; padding-left: 50px">
-                    Année: 
-                    <select class="dropdown" id="choose_year">
-                        <option value="2015_16" selected="selected">2015 - 2016</option>
-                        <option value="2016_17">2016 - 2017</option>
-                        <option value="2017_18">2017 - 2018</option>
-                    </select>
-                </div>
-                <div class="row" style="margin-top:15px; padding-left: 50px">
-                    Journée:
-                    <select class="dropdown" id="choose_day">
-                        <option value="38" selected="selected">38ème</option>
-                    </select>
-                </div>
-                <div class="row" style="margin-top:15px; padding-left: 50px">
-                    Equipe 1:
-                    <select class="dropdown" id="choose_team">
-                        <option value="Ajaccio" selected="selected">Ajaccio</option>
-                    </select>
-                </div>
-                <div class="row" style="margin-top:15px; padding-left: 50px">
-                    Equipe 2:
-                    <select class="dropdown" id="choose_team2">
-                        <option value="Angers" selected="selected">Angers</option>
-                    </select>
-                </div>
+
+				<div class="row">
+					<div class="form-group">
+						<label style="font-weight:normal" class="col-md-4 control-label">Année:</label>
+						<div class="col-md-8">
+							<select class="dropdown" id="choose_year">
+								<option value="2015_16" selected="selected">2015 - 2016</option>
+								<option value="2016_17">2016 - 2017</option>
+								<option value="2017_18">2017 - 2018</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group">
+						<label style="font-weight:normal" class="col-md-4 control-label">Journée:</label>
+						<div class="col-md-8">
+							<select class="dropdown" id="choose_day">
+								<option value="38" selected="selected">38ème</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group">
+						<label style="font-weight:normal" class="col-md-4 control-label"> Equipe 1:</label>
+						<div class="col-md-8">
+							<select class="dropdown" id="choose_team">
+								<option value="Ajaccio" selected="selected">Ajaccio</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="form-group">
+						<label style="font-weight:normal" class="col-md-4 control-label">Equipe 2:</label>
+						<div class="col-md-8">
+							<select class="dropdown" id="choose_team2">
+								<option value="Angers" selected="selected">Angers</option>
+							</select>
+						</div>
+					</div>
+				</div>
             </div>
+
             <div class="col-md-5 col-md-offset-1">
                 <canvas id="points_par_journee"></canvas>
             </div>
